@@ -1,0 +1,315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\code\\doan\\quanlykhohang\\quanlykhohang\\invoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\invoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\invoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\invoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:QuanLyKhoHang\\InvoiceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\code\\doan\\quanlykhohang\\quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\nv\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\nv\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\global-variable\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\global-variable\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\exportpirceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\exportpirceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\exportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\exportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\nv\\listofemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\nv\\listofemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\QuanLy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:QuanLyKhoHang\\QuanLy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\quanlykhohang\\exportpirceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\exportpirceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExportPirceUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:26:37.479Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExportGoods.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportGoods.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\ExportGoods.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportGoods.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\ExportGoods.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:13:38.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuanLy.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\QuanLy.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\QuanLy.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\QuanLy.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\QuanLy.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:00:10.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GoodsImport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\GoodsImport.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\GoodsImport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:37:23.073Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExportPirceUpdate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportPirceUpdate.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\ExportPirceUpdate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:26:07.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:29:32.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\EmployeeForm.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADgv48AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:42:43.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalVariable.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:01:01.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoodsImport.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\GoodsImport.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\GoodsImport.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswHoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:34:09.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ListOfEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv\\ListOfEmployee.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\nv\\ListOfEmployee.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv\\ListOfEmployee.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\nv\\ListOfEmployee.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:29:32.516Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e115107b-bc83-4bc3-921a-5564dd04b0ec",
+        "Display": 1,
+        "X": 83,
+        "Y": 225,
+        "Width": 1102,
+        "Height": 957,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 317,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\InvoiceDetail.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceDetail.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\InvoiceDetail.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:09:24.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceForm.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\InvoiceForm.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceForm.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\InvoiceForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:24:09.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Form1.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Form1.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\Form1.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwD0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:42:55.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\EmployeeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:36:52.344Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\InvoiceDetail.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceDetail.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\InvoiceDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:56:23.991Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Form1.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Form1.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:20:56.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceForm.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\InvoiceForm.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\code\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceForm.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\InvoiceForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:06:31.706Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
