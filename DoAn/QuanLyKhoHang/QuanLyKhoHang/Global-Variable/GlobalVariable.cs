@@ -51,6 +51,9 @@ namespace QuanLyKhoHang.Global_Variable
         public static string fakeString = string.Empty;
         public static bool fakeBool = false;
 
+
+
+        //refresh DATA
         public static void clearData()
         {
             fakeListImportGoods.Clear();
