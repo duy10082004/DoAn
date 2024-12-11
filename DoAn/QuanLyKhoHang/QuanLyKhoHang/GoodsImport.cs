@@ -31,18 +31,18 @@ namespace QuanLyKhoHang
             nhTxtGoodsImportPrice.Clear();
             nhTxtGoodsName.Clear();
             nhTxtGoodsQuantity.Clear();
-            nhTxtGoodsType.Clear();
         }
 
 
 
         private void nhBtnAdd_Click(object sender, EventArgs e)
         {
-            string nhEmployeeCode = nhTxtEmployeeCode.Text;
+            string nhEmployeeCode = GlobalVariable.accountLogin.AccountEmployeeID;
             DateTime nhImportTime = nhDtImportTime.Value;
             string nhGoodsCode = nhTxtGoodsCode.Text;
             string nhGoodsName = nhTxtGoodsName.Text;
-            string nhGoodsType = nhTxtGoodsType.Text;
+            object idx = goodsImportCbb.SelectedItem;
+            string nhGoodsType = idx.ToString();
             int nhGoodsQuantity = int.Parse(nhTxtGoodsQuantity.Text);
             int nhGoodsImportPrice = int.Parse(nhTxtGoodsImportPrice.Text);
             HangNhap tmp = new HangNhap( nhEmployeeCode, nhImportTime, nhGoodsCode, nhGoodsName, nhGoodsType, nhGoodsQuantity, nhGoodsImportPrice);
@@ -63,7 +63,7 @@ namespace QuanLyKhoHang
             string invoiceID = "DNH" + ListOfInvoice.Instance.InvoiceArray.Count;
             importGoodsOderCode++;
             InvoiceManager importInvoice = new InvoiceManager();
-            importInvoice = new ImportInvoice(invoiceID, nhDtImportTime.Value, nhTxtEmployeeCode.Text);
+            importInvoice = new ImportInvoice(invoiceID, nhDtImportTime.Value, GlobalVariable.accountLogin.AccountEmployeeID);
             ListOfInvoice.Instance.addInvoice(importInvoice);
 
             
@@ -90,27 +90,34 @@ namespace QuanLyKhoHang
         private void nhDgvImportGoodsList_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             goodsListLocate = e.RowIndex;
-            nhTxtEmployeeCode.Text = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhEmployeeCode;
+            GlobalVariable.accountLogin.AccountEmployeeID = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhEmployeeCode;
             nhTxtGoodsCode.Text = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsCode;
             nhTxtGoodsName.Text = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsName;
-            nhTxtGoodsType.Text = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsType;
+            object idx = goodsImportCbb.SelectedItem;
+            string nhGoodsType = idx.ToString();
+            nhGoodsType = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsType;
             nhTxtGoodsQuantity.Text = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsQuantity.ToString();
             nhTxtGoodsImportPrice.Text = DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsImportPrice.ToString();
         }
 
         private void nhBtnFix_Click(object sender, EventArgs e)
         {
-            DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhEmployeeCode = nhTxtEmployeeCode.Text;
+            object idx = goodsImportCbb.SelectedItem;
+            string nhGoodsType = idx.ToString();
+            DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhEmployeeCode = GlobalVariable.accountLogin.AccountEmployeeID;
             DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsCode = nhTxtGoodsCode.Text;
             DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsName = nhTxtGoodsName.Text;
-            DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsType = nhTxtGoodsType.Text;
+            DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsType = nhGoodsType;
             DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsQuantity = int.Parse(nhTxtGoodsQuantity.Text);
             DanhSachHangNhap.Instance.HangNhapArr[goodsListLocate].NhGoodsImportPrice = int.Parse(nhTxtGoodsImportPrice.Text);
 
-            GlobalVariable.fakeListImportGoods[goodsListLocate].NhEmployeeCode = nhTxtEmployeeCode.Text;
+
+
+
+            GlobalVariable.fakeListImportGoods[goodsListLocate].NhEmployeeCode = GlobalVariable.accountLogin.AccountEmployeeID;
             GlobalVariable.fakeListImportGoods[goodsListLocate].NhGoodsCode = nhTxtGoodsCode.Text;
             GlobalVariable.fakeListImportGoods[goodsListLocate].NhGoodsName = nhTxtGoodsName.Text;
-            GlobalVariable.fakeListImportGoods[goodsListLocate].NhGoodsType = nhTxtGoodsType.Text;
+            GlobalVariable.fakeListImportGoods[goodsListLocate].NhGoodsType = nhGoodsType;
             GlobalVariable.fakeListImportGoods[goodsListLocate].NhGoodsQuantity = int.Parse(nhTxtGoodsQuantity.Text);
             GlobalVariable.fakeListImportGoods[goodsListLocate].NhGoodsImportPrice = int.Parse(nhTxtGoodsImportPrice.Text);
             nhDgvImportGoodsList.DataSource = GlobalVariable.fakeListImportGoods.ToList();
@@ -123,7 +130,11 @@ namespace QuanLyKhoHang
             nhDgvImportGoodsList.DataSource = GlobalVariable.fakeListImportGoods.ToList();
         }
 
-
+        private void GoodsImport_Load(object sender, EventArgs e)
+        {
+            importGoodsLbEmployeeCode.Text = GlobalVariable.accountLogin.AccountEmployeeID;
+            goodsImportCbb.DataSource = GlobalVariable.goodsTypeCbbValue;
+        }
     }
 }
    

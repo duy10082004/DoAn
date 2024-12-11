@@ -1,4 +1,6 @@
-﻿using QuanLyKhoHang.KhoHang;
+﻿using QuanLyKhoHang.Global_Variable;
+using QuanLyKhoHang.KhoHang;
+using QuanLyKhoHang.nv;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -58,8 +60,31 @@ namespace QuanLyKhoHang
 
         private void adminBtnEmployee_Click(object sender, EventArgs e)
         {
-            EmployeeForm employeeForm = new EmployeeForm();
-            employeeForm.ShowDialog();
+           AdminForm adminForm = new AdminForm();
+            adminForm.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            foreach(EmployeeManager employee in ListOfEmployee.Instance.EmployeeArray)
+            {
+                if (employee.EmployeeCode == GlobalVariable.accountLogin.AccountEmployeeID )
+                {
+                    if (employee.EmployeeDuty == "Nhân Viên")
+                    {
+                        adminBtn.Visible = false;
+                    }
+                    formLbHoTenNhanVien.Text = employee.EmployeeName;
+                    formLBMaNhanVien.Text = employee.EmployeeCode;
+                    formLbChucVu.Text = employee.EmployeeDuty;
+                }
+                
+            }
+        }
+
+        private void adminBtnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

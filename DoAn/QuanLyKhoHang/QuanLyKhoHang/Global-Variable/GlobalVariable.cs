@@ -2,6 +2,7 @@
 using QuanLyKhoHang.KhoHang;
 using QuanLyKhoHang.NhapHang;
 using QuanLyKhoHang.nv;
+using QuanLyKhoHang.tk;
 using QuanLyKhoHang.xh;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,7 @@ namespace QuanLyKhoHang.Global_Variable
         public static List<String> khComboboxValue = new List<string>() { "Refresh", "A->Z", "Số Lượng Tồn Kho", "Chưa Cập Nhật Giá Bán" };
         public static List<String> employeeCbbValue = new List<string>() { "Quản Lý", "Nhân Viên" };
         public static List<String> employeeSortCbbValue = new List<string>() { "Quản Lý", "Nhân Viên", "Tên A->Z" };
+        public static List<String> goodsTypeCbbValue = new List<String>() { "Máy Tính", "Ti Vi", "Tủ Lạnh", "Điều Hòa", "Điện Thoại" };
 
         //Sort Hóa Đơn
         public static InvoiceManager fakeInvoice = new InvoiceManager("", DateTime.Now, "");
@@ -50,6 +52,9 @@ namespace QuanLyKhoHang.Global_Variable
         public static int fakeNumber = -1;
         public static string fakeString = string.Empty;
         public static bool fakeBool = false;
+        public static AccountManager accountLogin = null;
+        public static string globleVariableemployeeID = null;
+        public static string globalVariableEmployeeDuty = null;
 
 
 

@@ -1,5 +1,6 @@
 ﻿using QuanLyKhoHang.Global_Variable;
 using QuanLyKhoHang.nv;
+using QuanLyKhoHang.tk;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -65,8 +66,10 @@ namespace QuanLyKhoHang
         {
             GlobalVariable.fakeNumber = e.RowIndex;
             GlobalVariable.fakeString = employeeDgv.SelectedCells[0].Value.ToString();
-            employeeTxtCode.Text = ListOfEmployee.Instance.EmployeeArray[e.RowIndex].EmployeeCode.ToString();
-            employeeTxtName.Text = ListOfEmployee.Instance.EmployeeArray[e.RowIndex].EmployeeName.ToString();
+            GlobalVariable.globleVariableemployeeID = employeeDgv.SelectedCells[0].Value.ToString();
+            GlobalVariable.globalVariableEmployeeDuty = employeeDgv.SelectedCells[2].Value.ToString();
+
+
         }
 
         private void employeeBtnFix_Click(object sender, EventArgs e)
@@ -79,6 +82,14 @@ namespace QuanLyKhoHang
             int index = ListOfEmployee.Instance.EmployeeArray.FindIndex(EmployeeManager => EmployeeManager.EmployeeCode == GlobalVariable.fakeString);
 
             ListOfEmployee.Instance.EmployeeArray[index] = employee;
+
+            foreach(AccountManager account in ListofAccount.Instance.AccountArray)
+            {
+                if(account.AccountEmployeeID == employeeTxtCode.Text)
+                {
+                    account.TypeOfAccount = employeeDuty;
+                }
+            }
 
             MessageBox.Show("Đã Sửa Thông Tin Nhân Viên!!");
 
@@ -144,9 +155,28 @@ namespace QuanLyKhoHang
 
         private void employeeInvoiceStatistics_Click(object sender, EventArgs e)
         {
-            GlobalVariable.fakeBool = true;
-            InvoiceForm invoiceForm = new InvoiceForm();
-            invoiceForm.ShowDialog();
+            foreach(AccountManager account in ListofAccount.Instance.AccountArray)
+            {
+                if(account.AccountEmployeeID == GlobalVariable.globleVariableemployeeID)
+                {
+                    MessageBox.Show("Nhân Viên Đã Có Tài Khoản!!");
+                    return;
+                }
+            }
+
+
+
+
+            AccountForm accountForm = new AccountForm();
+            accountForm.ShowDialog();
+
+
+
+        }
+
+        private void employeeDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

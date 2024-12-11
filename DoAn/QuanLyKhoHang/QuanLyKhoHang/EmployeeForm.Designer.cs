@@ -42,18 +42,19 @@
             this.employeeBtnAdd = new System.Windows.Forms.Button();
             this.employeeBtnFix = new System.Windows.Forms.Button();
             this.employeeBtnDel = new System.Windows.Forms.Button();
-            this.employeeInvoiceStatistics = new System.Windows.Forms.Button();
+            this.btnAddAccount = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.employeeDgv = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.employeeCbbDuty = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.employeeCbbSort = new System.Windows.Forms.ComboBox();
             this.employeeBtnSort = new System.Windows.Forms.Button();
             this.employeeBtnBackWard = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDgv)).BeginInit();
             this.SuspendLayout();
             // 
@@ -174,15 +175,15 @@
             this.employeeBtnDel.UseVisualStyleBackColor = true;
             this.employeeBtnDel.Click += new System.EventHandler(this.employeeBtnDel_Click);
             // 
-            // employeeInvoiceStatistics
+            // btnAddAccount
             // 
-            this.employeeInvoiceStatistics.Location = new System.Drawing.Point(484, 239);
-            this.employeeInvoiceStatistics.Name = "employeeInvoiceStatistics";
-            this.employeeInvoiceStatistics.Size = new System.Drawing.Size(104, 42);
-            this.employeeInvoiceStatistics.TabIndex = 74;
-            this.employeeInvoiceStatistics.Text = "Thống Kê Hóa Đơn";
-            this.employeeInvoiceStatistics.UseVisualStyleBackColor = true;
-            this.employeeInvoiceStatistics.Click += new System.EventHandler(this.employeeInvoiceStatistics_Click);
+            this.btnAddAccount.Location = new System.Drawing.Point(484, 239);
+            this.btnAddAccount.Name = "btnAddAccount";
+            this.btnAddAccount.Size = new System.Drawing.Size(104, 30);
+            this.btnAddAccount.TabIndex = 74;
+            this.btnAddAccount.Text = "Tạo Tài Khoản";
+            this.btnAddAccount.UseVisualStyleBackColor = true;
+            this.btnAddAccount.Click += new System.EventHandler(this.employeeInvoiceStatistics_Click);
             // 
             // label7
             // 
@@ -206,6 +207,31 @@
             this.employeeDgv.Size = new System.Drawing.Size(455, 248);
             this.employeeDgv.TabIndex = 75;
             this.employeeDgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.employeeDgv_CellClick);
+            this.employeeDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.employeeDgv_CellContentClick);
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "employeeCode";
+            this.Column1.HeaderText = "Mã Nhân Viên";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "employeeName";
+            this.Column2.HeaderText = "Họ Tên Nhân Viên";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "employeeDuty";
+            this.Column3.HeaderText = "Chức Vụ";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "employeeBirthDay";
+            this.Column4.HeaderText = "Ngày Sinh";
+            this.Column4.Name = "Column4";
             // 
             // employeeCbbDuty
             // 
@@ -236,7 +262,7 @@
             // 
             this.employeeBtnSort.Location = new System.Drawing.Point(483, 204);
             this.employeeBtnSort.Name = "employeeBtnSort";
-            this.employeeBtnSort.Size = new System.Drawing.Size(104, 29);
+            this.employeeBtnSort.Size = new System.Drawing.Size(105, 29);
             this.employeeBtnSort.TabIndex = 79;
             this.employeeBtnSort.Text = "Lọc";
             this.employeeBtnSort.UseVisualStyleBackColor = true;
@@ -252,35 +278,21 @@
             this.employeeBtnBackWard.UseVisualStyleBackColor = true;
             this.employeeBtnBackWard.Click += new System.EventHandler(this.employeeBtnBackWard_Click);
             // 
-            // Column1
+            // button1
             // 
-            this.Column1.DataPropertyName = "employeeCode";
-            this.Column1.HeaderText = "Mã Nhân Viên";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "employeeName";
-            this.Column2.HeaderText = "Họ Tên Nhân Viên";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "employeeDuty";
-            this.Column3.HeaderText = "Chức Vụ";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "employeeBirthDay";
-            this.Column4.HeaderText = "Ngày Sinh";
-            this.Column4.Name = "Column4";
+            this.button1.Location = new System.Drawing.Point(484, 275);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 41);
+            this.button1.TabIndex = 81;
+            this.button1.Text = "Quản Lý Tài Khoản";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // EmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.employeeBtnBackWard);
             this.Controls.Add(this.employeeBtnSort);
             this.Controls.Add(this.employeeCbbSort);
@@ -288,7 +300,7 @@
             this.Controls.Add(this.employeeCbbDuty);
             this.Controls.Add(this.employeeDgv);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.employeeInvoiceStatistics);
+            this.Controls.Add(this.btnAddAccount);
             this.Controls.Add(this.employeeBtnDel);
             this.Controls.Add(this.employeeBtnFix);
             this.Controls.Add(this.employeeBtnAdd);
@@ -329,7 +341,7 @@
         private System.Windows.Forms.Button employeeBtnAdd;
         private System.Windows.Forms.Button employeeBtnFix;
         private System.Windows.Forms.Button employeeBtnDel;
-        private System.Windows.Forms.Button employeeInvoiceStatistics;
+        private System.Windows.Forms.Button btnAddAccount;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridView employeeDgv;
         private System.Windows.Forms.ComboBox employeeCbbDuty;
@@ -341,5 +353,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.Button button1;
     }
 }

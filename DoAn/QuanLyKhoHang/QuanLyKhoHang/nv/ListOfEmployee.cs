@@ -68,7 +68,15 @@ namespace QuanLyKhoHang.nv
             return false;
         }
 
+        public void initEmployee()
+        {
+            EmployeeManager employee = new EmployeeManager("NV01", "Phan Nhat Duy", "Quản Lý", DateTime.Now);
+            EmployeeManager employeetwo = new EmployeeManager("NV02", "Truong Hung Dung", "Nhân Viên", DateTime.Now);
+            addNewEmployee(employee);
+            addNewEmployee(employeetwo);
 
+
+        }
 
     }
 }

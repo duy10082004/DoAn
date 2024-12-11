@@ -45,7 +45,6 @@
             this.xhBtnFix = new System.Windows.Forms.Button();
             this.xhBtnAdd = new System.Windows.Forms.Button();
             this.xhDtImportTime = new System.Windows.Forms.DateTimePicker();
-            this.xhTxtEmployeeCode = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.lb1 = new System.Windows.Forms.Label();
             this.xhTxtGoodsQuantity = new System.Windows.Forms.TextBox();
@@ -55,6 +54,7 @@
             this.lb2 = new System.Windows.Forms.Label();
             this.xhTxtGoodsCode = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.exportGoodsLbEmployeeCode = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.xhDgvExportGoods)).BeginInit();
             this.SuspendLayout();
             // 
@@ -200,13 +200,6 @@
             this.xhDtImportTime.Size = new System.Drawing.Size(188, 20);
             this.xhDtImportTime.TabIndex = 51;
             // 
-            // xhTxtEmployeeCode
-            // 
-            this.xhTxtEmployeeCode.Location = new System.Drawing.Point(76, 41);
-            this.xhTxtEmployeeCode.Name = "xhTxtEmployeeCode";
-            this.xhTxtEmployeeCode.Size = new System.Drawing.Size(188, 20);
-            this.xhTxtEmployeeCode.TabIndex = 50;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -280,11 +273,21 @@
             this.label1.TabIndex = 39;
             this.label1.Text = "MÃ HÀNG";
             // 
+            // exportGoodsLbEmployeeCode
+            // 
+            this.exportGoodsLbEmployeeCode.AutoSize = true;
+            this.exportGoodsLbEmployeeCode.Location = new System.Drawing.Point(73, 41);
+            this.exportGoodsLbEmployeeCode.Name = "exportGoodsLbEmployeeCode";
+            this.exportGoodsLbEmployeeCode.Size = new System.Drawing.Size(13, 13);
+            this.exportGoodsLbEmployeeCode.TabIndex = 59;
+            this.exportGoodsLbEmployeeCode.Text = "1";
+            // 
             // ExportGoods
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 572);
+            this.Controls.Add(this.exportGoodsLbEmployeeCode);
             this.Controls.Add(this.nhBtnBackward);
             this.Controls.Add(this.xhDgvExportGoods);
             this.Controls.Add(this.label7);
@@ -293,7 +296,6 @@
             this.Controls.Add(this.xhBtnFix);
             this.Controls.Add(this.xhBtnAdd);
             this.Controls.Add(this.xhDtImportTime);
-            this.Controls.Add(this.xhTxtEmployeeCode);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.lb1);
             this.Controls.Add(this.xhTxtGoodsQuantity);
@@ -323,7 +325,6 @@
         private System.Windows.Forms.Button xhBtnFix;
         private System.Windows.Forms.Button xhBtnAdd;
         private System.Windows.Forms.DateTimePicker xhDtImportTime;
-        private System.Windows.Forms.TextBox xhTxtEmployeeCode;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lb1;
         private System.Windows.Forms.TextBox xhTxtGoodsQuantity;
@@ -342,5 +343,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.Label exportGoodsLbEmployeeCode;
     }
 }

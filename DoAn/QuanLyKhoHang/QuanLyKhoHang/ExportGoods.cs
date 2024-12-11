@@ -25,7 +25,7 @@ namespace QuanLyKhoHang
         private void xhBtnAdd_Click(object sender, EventArgs e)
         {
             bool idx = false;
-            string employeeCode = xhTxtEmployeeCode.Text;
+            string employeeCode = GlobalVariable.accountLogin.AccountEmployeeID;
             string goodsCode = xhTxtGoodsCode.Text;
             string goodsName = xhTxtGoodsName.Text;
             string goodsType = xhTxtGoodsType.Text;
@@ -63,7 +63,7 @@ namespace QuanLyKhoHang
         private void xhDgvExportGoods_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             GlobalVariable.fakeNumber = e.RowIndex;
-            xhTxtEmployeeCode.Text = ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].EmployeeCode;
+            GlobalVariable.accountLogin.AccountEmployeeID = ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].EmployeeCode;
             xhTxtGoodsCode.Text = ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].GoodsID;
             xhTxtGoodsName.Text = ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].GoodsName;
             xhTxtGoodsType.Text = ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].GoodsType;
@@ -72,7 +72,7 @@ namespace QuanLyKhoHang
 
         private void xhBtnFix_Click(object sender, EventArgs e)
         {
-            ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].EmployeeCode = xhTxtEmployeeCode.Text;
+            ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].EmployeeCode = GlobalVariable.accountLogin.AccountEmployeeID;
             ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].GoodsID = xhTxtGoodsCode.Text;
             ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].GoodsName = xhTxtGoodsName.Text;
             ExportGoodsList.Instance.ExportGoodsArray[GlobalVariable.fakeNumber].GoodsType = xhTxtGoodsType.Text;
@@ -89,7 +89,7 @@ namespace QuanLyKhoHang
 
         private void ExportGoods_Load(object sender, EventArgs e)
         {
-
+            exportGoodsLbEmployeeCode.Text = GlobalVariable.accountLogin.AccountEmployeeID;
         }
 
         private void ExportGoods_FormClosed(object sender, FormClosedEventArgs e)
@@ -101,7 +101,7 @@ namespace QuanLyKhoHang
         {
             string exportInvoiceID = "DXH" + ListOfInvoice.Instance.InvoiceArray.Count;
             DateTime exportInvoiceTime = xhDtImportTime.Value;
-            string employeeCode = xhTxtEmployeeCode.Text;
+            string employeeCode = GlobalVariable.accountLogin.AccountEmployeeID;
 
             InvoiceManager exportInvoice = new InvoiceManager();
             exportInvoice = new ExportInvoice(exportInvoiceID, exportInvoiceTime, employeeCode);
