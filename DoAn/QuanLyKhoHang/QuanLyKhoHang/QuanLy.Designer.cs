@@ -39,12 +39,13 @@
             this.khBtnUpdateExportPrice = new System.Windows.Forms.Button();
             this.khCbbSort = new System.Windows.Forms.ComboBox();
             this.khBtnSort = new System.Windows.Forms.Button();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyHangHoa)).BeginInit();
             this.SuspendLayout();
             // 
             // khBtnExit
             // 
-            this.khBtnExit.Location = new System.Drawing.Point(663, 409);
+            this.khBtnExit.Location = new System.Drawing.Point(846, 409);
             this.khBtnExit.Name = "khBtnExit";
             this.khBtnExit.Size = new System.Drawing.Size(78, 29);
             this.khBtnExit.TabIndex = 1;
@@ -61,10 +62,11 @@
             this.Column3,
             this.Column4,
             this.Column5,
-            this.Column6});
+            this.Column6,
+            this.Column7});
             this.dgvQuanLyHangHoa.Location = new System.Drawing.Point(12, 12);
             this.dgvQuanLyHangHoa.Name = "dgvQuanLyHangHoa";
-            this.dgvQuanLyHangHoa.Size = new System.Drawing.Size(645, 426);
+            this.dgvQuanLyHangHoa.Size = new System.Drawing.Size(754, 426);
             this.dgvQuanLyHangHoa.TabIndex = 2;
             this.dgvQuanLyHangHoa.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQuanLyHangHoa_CellClick);
             this.dgvQuanLyHangHoa.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQuanLyHangHoa_CellContentClick);
@@ -107,7 +109,7 @@
             // 
             // khBtnUpdateExportPrice
             // 
-            this.khBtnUpdateExportPrice.Location = new System.Drawing.Point(663, 77);
+            this.khBtnUpdateExportPrice.Location = new System.Drawing.Point(772, 77);
             this.khBtnUpdateExportPrice.Name = "khBtnUpdateExportPrice";
             this.khBtnUpdateExportPrice.Size = new System.Drawing.Size(152, 32);
             this.khBtnUpdateExportPrice.TabIndex = 3;
@@ -118,14 +120,14 @@
             // khCbbSort
             // 
             this.khCbbSort.FormattingEnabled = true;
-            this.khCbbSort.Location = new System.Drawing.Point(663, 12);
+            this.khCbbSort.Location = new System.Drawing.Point(772, 12);
             this.khCbbSort.Name = "khCbbSort";
             this.khCbbSort.Size = new System.Drawing.Size(152, 21);
             this.khCbbSort.TabIndex = 4;
             // 
             // khBtnSort
             // 
-            this.khBtnSort.Location = new System.Drawing.Point(663, 39);
+            this.khBtnSort.Location = new System.Drawing.Point(772, 39);
             this.khBtnSort.Name = "khBtnSort";
             this.khBtnSort.Size = new System.Drawing.Size(152, 32);
             this.khBtnSort.TabIndex = 5;
@@ -133,11 +135,16 @@
             this.khBtnSort.UseVisualStyleBackColor = true;
             this.khBtnSort.Click += new System.EventHandler(this.khBtnSort_Click);
             // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Nhà Cung Cấp";
+            this.Column7.Name = "Column7";
+            // 
             // QuanLy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(820, 450);
+            this.ClientSize = new System.Drawing.Size(932, 450);
             this.Controls.Add(this.khBtnSort);
             this.Controls.Add(this.khCbbSort);
             this.Controls.Add(this.khBtnUpdateExportPrice);
@@ -163,5 +170,6 @@
         private System.Windows.Forms.Button khBtnUpdateExportPrice;
         private System.Windows.Forms.ComboBox khCbbSort;
         private System.Windows.Forms.Button khBtnSort;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }

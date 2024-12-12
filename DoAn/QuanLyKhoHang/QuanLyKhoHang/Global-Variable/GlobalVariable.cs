@@ -21,10 +21,11 @@ namespace QuanLyKhoHang.Global_Variable
         //value Combobox;
         public static List<String> invoiceComboboxValue = new List<String>() {"Refresh", "Giá Thấp Đến Cao",
             "Giá Cao Đến Thấp", "Đơn Nhập Hàng", "Đơn Xuất Hàng" };
-        public static List<String> khComboboxValue = new List<string>() { "Refresh", "A->Z", "Số Lượng Tồn Kho", "Chưa Cập Nhật Giá Bán" };
-        public static List<String> employeeCbbValue = new List<string>() { "Quản Lý", "Nhân Viên" };
-        public static List<String> employeeSortCbbValue = new List<string>() { "Quản Lý", "Nhân Viên", "Tên A->Z" };
+        public static List<String> khComboboxValue = new List<String>() { "Refresh", "A->Z", "Số Lượng Tồn Kho", "Chưa Cập Nhật Giá Bán" };
+        public static List<String> employeeCbbValue = new List<String>() { "Quản Lý", "Nhân Viên" };
+        public static List<String> employeeSortCbbValue = new List<String>() { "Quản Lý", "Nhân Viên", "Tên A->Z", "Refresh" };
         public static List<String> goodsTypeCbbValue = new List<String>() { "Máy Tính", "Ti Vi", "Tủ Lạnh", "Điều Hòa", "Điện Thoại" };
+        public static List<String> accountShowCbbValue = new List<String> { "Quyền Quản Lý", "Quyền Nhân Viên", "Refresh" };
 
         //Sort Hóa Đơn
         public static InvoiceManager fakeInvoice = new InvoiceManager("", DateTime.Now, "");
@@ -46,6 +47,11 @@ namespace QuanLyKhoHang.Global_Variable
         public static List<EmployeeManager> employeeNVSort = new List<EmployeeManager>();
         public static List<EmployeeManager> employeeAZSort = new List<EmployeeManager>();
 
+        //sort tài khoản
+        public static List<AccountManager> sortManagerAccount = new List<AccountManager>();
+        public static List<AccountManager> sortEmployrAccount = new List<AccountManager>();
+
+
 
 
         //Biến cục bộ 
@@ -55,12 +61,16 @@ namespace QuanLyKhoHang.Global_Variable
         public static AccountManager accountLogin = null;
         public static string globleVariableemployeeID = null;
         public static string globalVariableEmployeeDuty = null;
+        public static AccountManager accountTakedOut = null;
+        public static EmployeeManager employeeTakedOut = null;
 
 
 
         //refresh DATA
         public static void clearData()
         {
+            employeeTakedOut = null;
+            accountTakedOut = null;
             fakeListImportGoods.Clear();
             fakeExportGoodsList.Clear();
             fakeInvoiceList.Clear();
@@ -73,6 +83,8 @@ namespace QuanLyKhoHang.Global_Variable
             employeeQLSort.Clear();
             employeeNVSort.Clear();
             employeeAZSort.Clear();
+            sortManagerAccount.Clear();
+            sortEmployrAccount.Clear();
             fakeInvoice = null;
             fakeNumber = -1;
             fakeString = string.Empty;

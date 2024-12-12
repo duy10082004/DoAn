@@ -45,7 +45,8 @@ namespace QuanLyKhoHang
             string nhGoodsType = idx.ToString();
             int nhGoodsQuantity = int.Parse(nhTxtGoodsQuantity.Text);
             int nhGoodsImportPrice = int.Parse(nhTxtGoodsImportPrice.Text);
-            HangNhap tmp = new HangNhap( nhEmployeeCode, nhImportTime, nhGoodsCode, nhGoodsName, nhGoodsType, nhGoodsQuantity, nhGoodsImportPrice);
+            string nhGoodsSupplier = nhTxtGoodsSupplier.Text;
+            HangNhap tmp = new HangNhap( nhEmployeeCode, nhImportTime, nhGoodsCode, nhGoodsName, nhGoodsType, nhGoodsQuantity, nhGoodsImportPrice, nhGoodsSupplier);
             tmp.NhImportOderCode = "DNH" + ListOfInvoice.Instance.InvoiceArray.Count;
             DanhSachHangNhap.Instance.AddNewGoods(tmp);
             GlobalVariable.fakeListImportGoods.Add(tmp);
@@ -72,7 +73,7 @@ namespace QuanLyKhoHang
                 if (tmp.NhImportOderCode == invoiceID)
                 {
                     DanhSachHangHoa.Instance.themHangHoa(new HangHoa(tmp.NhGoodsCode, 
-                        tmp.NhGoodsName, tmp.NhGoodsType, tmp.NhGoodsQuantity, tmp.NhGoodsImportPrice, 0));
+                        tmp.NhGoodsName, tmp.NhGoodsType, tmp.NhGoodsQuantity, tmp.NhGoodsImportPrice, 0, tmp.NhGoodsSupplier));
                     MessageBox.Show("Đã Cập Nhật Kho Hàng");
                 }
             }

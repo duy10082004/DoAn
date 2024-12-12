@@ -18,6 +18,7 @@ namespace QuanLyKhoHang.NhapHang
         private int nhGoodsQuantity;
         private int nhGoodsImportPrice;
         private int nhTotalGoodsImportPrice;
+        private string nhGoodsSupplier;
 
         public HangNhap() 
         {
@@ -29,10 +30,11 @@ namespace QuanLyKhoHang.NhapHang
             this.nhGoodsQuantity = 0;
             this.nhGoodsImportPrice = 0;
             this.nhImportOderCode = "";
+            nhGoodsSupplier = "";
         }
 
         public HangNhap (string nhEmployeeCode, DateTime nhImportTime, string nhGoodsCode, string nhGoodsName, 
-        string nhGoodsType, int nhGoodsQuantity, int nhGoodsImportPrice)
+        string nhGoodsType, int nhGoodsQuantity, int nhGoodsImportPrice, string nhGoodsSupplier)
         {
             this.nhEmployeeCode = nhEmployeeCode;
             this.nhImportTime = nhImportTime;
@@ -41,6 +43,7 @@ namespace QuanLyKhoHang.NhapHang
             this.nhGoodsType = nhGoodsType;
             this.nhGoodsQuantity = nhGoodsQuantity;
             this.nhGoodsImportPrice = nhGoodsImportPrice;
+            this.nhGoodsSupplier = nhGoodsSupplier;
 
         }
 
@@ -101,6 +104,13 @@ namespace QuanLyKhoHang.NhapHang
             get { return nhImportOderCode; }
             set { this.nhImportOderCode = value; }
         }
+
+        public string NhGoodsSupplier
+        {
+            get { return nhGoodsSupplier; }
+            set { this.nhGoodsSupplier = value; }
+        }
+
 
 
     }

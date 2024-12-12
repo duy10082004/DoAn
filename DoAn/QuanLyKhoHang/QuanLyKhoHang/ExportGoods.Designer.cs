@@ -60,7 +60,7 @@
             // 
             // nhBtnBackward
             // 
-            this.nhBtnBackward.Location = new System.Drawing.Point(774, 525);
+            this.nhBtnBackward.Location = new System.Drawing.Point(835, 538);
             this.nhBtnBackward.Name = "nhBtnBackward";
             this.nhBtnBackward.Size = new System.Drawing.Size(66, 22);
             this.nhBtnBackward.TabIndex = 58;
@@ -243,7 +243,7 @@
             // 
             // xhTxtGoodsName
             // 
-            this.xhTxtGoodsName.Location = new System.Drawing.Point(324, 96);
+            this.xhTxtGoodsName.Location = new System.Drawing.Point(324, 99);
             this.xhTxtGoodsName.Name = "xhTxtGoodsName";
             this.xhTxtGoodsName.Size = new System.Drawing.Size(188, 20);
             this.xhTxtGoodsName.TabIndex = 42;
@@ -286,7 +286,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(913, 572);
+            this.ClientSize = new System.Drawing.Size(913, 570);
             this.Controls.Add(this.exportGoodsLbEmployeeCode);
             this.Controls.Add(this.nhBtnBackward);
             this.Controls.Add(this.xhDgvExportGoods);

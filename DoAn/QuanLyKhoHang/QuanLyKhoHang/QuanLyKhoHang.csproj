@@ -52,6 +52,12 @@
     <Compile Include="AccountForm.Designer.cs">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AccountInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountInformationForm.Designer.cs">
+      <DependentUpon>AccountInformationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AccountShowForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
     <Compile Include="xh\ExportGoodsList.cs" />
     <EmbeddedResource Include="AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountInformationForm.resx">
+      <DependentUpon>AccountInformationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AccountShowForm.resx">
       <DependentUpon>AccountShowForm.cs</DependentUpon>

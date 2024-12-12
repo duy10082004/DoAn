@@ -52,7 +52,7 @@ namespace QuanLyKhoHang.KhoHang
         {
             foreach (HangHoa tmp in dsHangHoa)
             {
-                if (tmp.HhMaHangHoa == fakeObject.HhMaHangHoa)
+                if (tmp.HhMaHangHoa == fakeObject.HhMaHangHoa && tmp.HhGiaNhap == fakeObject.HhGiaNhap)
                 {
                     tmp.HhSoLuong += fakeObject.HhSoLuong;
                     return false;

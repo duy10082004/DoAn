@@ -4,6 +4,8 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
+using System.Windows.Forms;
 
 namespace QuanLyKhoHang.KhoHang
 {
@@ -15,6 +17,7 @@ namespace QuanLyKhoHang.KhoHang
         private int hhSoLuong;
         private int hhGiaNhap;
         private int hhGiaBan;
+        private string hhNhaCungCap;
 
         public HangHoa()
         {
@@ -24,9 +27,10 @@ namespace QuanLyKhoHang.KhoHang
             this.hhGiaBan = 0;
             this.hhTenHangHoa = string.Empty ;
             this.hhSoLuong = 0;
+            hhNhaCungCap = string.Empty ;
         }
 
-        public HangHoa (string hhMaHangHoa, string hhTenHangHoa, string hhLoaiHangHoa, int hhSoLuong, int hhGiaNhap, int hhGiaBan)
+        public HangHoa (string hhMaHangHoa, string hhTenHangHoa, string hhLoaiHangHoa, int hhSoLuong, int hhGiaNhap, int hhGiaBan, string hhNhaCungCap)
         {
             this.hhMaHangHoa = hhMaHangHoa;
             this.hhTenHangHoa = hhTenHangHoa;
@@ -34,6 +38,7 @@ namespace QuanLyKhoHang.KhoHang
             this.hhSoLuong = hhSoLuong;
             this.hhGiaNhap = hhGiaNhap;
             this.hhGiaBan = hhGiaBan;
+            this.hhNhaCungCap = hhNhaCungCap;
         }
 
         public string HhMaHangHoa
@@ -77,6 +82,16 @@ namespace QuanLyKhoHang.KhoHang
             get { return this.hhGiaBan; }
             set { this.hhGiaBan = value; }
         }
+
+        public string HhNhaCungCap
+        {
+            get
+            {
+                return this.hhNhaCungCap;
+            }
+            set { this.hhNhaCungCap = value; }
+        }
+
 
 
     }

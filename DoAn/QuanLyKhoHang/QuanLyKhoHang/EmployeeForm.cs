@@ -35,23 +35,26 @@ namespace QuanLyKhoHang
             DateTime employeeBirtDay = employeeDtBirtDay.Value;
 
             EmployeeManager employee = new EmployeeManager(employeeCode, employeeName, employeeDuty, employeeBirtDay);
-            if (ListOfEmployee.Instance.addNewEmployee(employee))
+            if(employeeCode == "" || employeeName == "")
             {
-                MessageBox.Show("Đã Thêm Thông Tin Nhân Viên Mới!");
+                MessageBox.Show("Thông Tin Cần Nhập Đang Bỏ Trống!!");
             }
             else
             {
-                MessageBox.Show("Mã Nhân Viên Đã Tồn Tại!");
+                if (ListOfEmployee.Instance.addNewEmployee(employee))
+                {
+                    MessageBox.Show("Đã Thêm Thông Tin Nhân Viên Mới!");
+                }
+                else
+                {
+                    MessageBox.Show("Mã Nhân Viên Đã Tồn Tại!");
+                }
             }
-
+            
+            //cleart textbox          
             employeeTxtCode.Clear();
             employeeTxtName.Clear();
-
-
-
             employeeDgv.DataSource = ListOfEmployee.Instance.EmployeeArray.ToList();
-
-
         }
 
         private void EmployeeForm_Load(object sender, EventArgs e)
@@ -100,8 +103,10 @@ namespace QuanLyKhoHang
 
         private void employeeBtnDel_Click(object sender, EventArgs e)
         {
-            int index = ListOfEmployee.Instance.EmployeeArray.FindIndex(EmployeeManager => EmployeeManager.EmployeeCode == GlobalVariable.fakeString);
-            ListOfEmployee.Instance.EmployeeArray.RemoveAt(index);
+            int employeeListIndex = ListOfEmployee.Instance.EmployeeArray.FindIndex(EmployeeManager => EmployeeManager.EmployeeCode == GlobalVariable.fakeString);
+            int accountListIndex = ListofAccount.Instance.AccountArray.FindIndex(AccountManager => AccountManager.AccountEmployeeID == GlobalVariable.fakeString);
+            ListOfEmployee.Instance.EmployeeArray.RemoveAt(employeeListIndex);
+            ListofAccount.Instance.AccountArray.RemoveAt(accountListIndex);
             MessageBox.Show("Đã Xóa Thông Tin Nhân Viên!");
             employeeDgv.DataSource = ListOfEmployee.Instance.EmployeeArray.ToList();
         }
@@ -142,6 +147,10 @@ namespace QuanLyKhoHang
                 employeeDgv.DataSource = GlobalVariable.employeeAZSort.ToList();
                 GlobalVariable.employeeNVSort.Clear();
                 GlobalVariable.employeeQLSort.Clear();
+            }
+            else
+            {
+                employeeDgv.DataSource = ListOfEmployee.Instance.EmployeeArray;
             }
 
 

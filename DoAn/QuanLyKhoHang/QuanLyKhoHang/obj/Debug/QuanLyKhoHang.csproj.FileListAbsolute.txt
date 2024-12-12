@@ -63,3 +63,4 @@ C:\Users\admin\source\repos\DoAn\DoAn\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\Quan
 C:\Users\admin\source\repos\DoAn\DoAn\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.AccountForm.resources
 C:\Users\admin\source\repos\DoAn\DoAn\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.AdminForm.resources
 C:\Users\admin\source\repos\DoAn\DoAn\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.AccountShowForm.resources
+C:\Users\admin\source\repos\DoAn\DoAn\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.AccountInformationForm.resources
