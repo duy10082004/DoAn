@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhoHang.hd
 {
+    [Serializable]
     internal class ExportInvoice: InvoiceManager
     {
         public ExportInvoice(string invoiceID, DateTime invoiceTime, string employeeCode)

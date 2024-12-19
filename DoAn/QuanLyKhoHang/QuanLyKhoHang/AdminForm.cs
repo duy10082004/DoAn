@@ -33,5 +33,11 @@ namespace QuanLyKhoHang
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Account_MH account_MH = new Account_MH();
+            account_MH.ShowDialog();
+        }
     }
 }

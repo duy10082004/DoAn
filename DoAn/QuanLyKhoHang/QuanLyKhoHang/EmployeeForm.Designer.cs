@@ -54,102 +54,113 @@
             this.employeeCbbSort = new System.Windows.Forms.ComboBox();
             this.employeeBtnSort = new System.Windows.Forms.Button();
             this.employeeBtnBackWard = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDgv)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, -36);
+            this.label1.Location = new System.Drawing.Point(353, -44);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 59;
             this.label1.Text = "MÃ HÀNG";
             // 
             // xhTxtGoodsCode
             // 
-            this.xhTxtGoodsCode.Location = new System.Drawing.Point(268, -20);
+            this.xhTxtGoodsCode.Location = new System.Drawing.Point(357, -25);
+            this.xhTxtGoodsCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhTxtGoodsCode.Name = "xhTxtGoodsCode";
-            this.xhTxtGoodsCode.Size = new System.Drawing.Size(188, 20);
+            this.xhTxtGoodsCode.Size = new System.Drawing.Size(249, 22);
             this.xhTxtGoodsCode.TabIndex = 60;
             // 
             // lb2
             // 
             this.lb2.AutoSize = true;
-            this.lb2.Location = new System.Drawing.Point(265, 16);
+            this.lb2.Location = new System.Drawing.Point(353, 20);
+            this.lb2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(75, 13);
+            this.lb2.Size = new System.Drawing.Size(91, 16);
             this.lb2.TabIndex = 61;
             this.lb2.Text = "Mã Nhân Viên";
             // 
             // employeeTxtCode
             // 
-            this.employeeTxtCode.Location = new System.Drawing.Point(268, 35);
+            this.employeeTxtCode.Location = new System.Drawing.Point(357, 43);
+            this.employeeTxtCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeTxtCode.Name = "employeeTxtCode";
-            this.employeeTxtCode.Size = new System.Drawing.Size(188, 20);
+            this.employeeTxtCode.Size = new System.Drawing.Size(249, 22);
             this.employeeTxtCode.TabIndex = 62;
             // 
             // tb3
             // 
             this.tb3.AutoSize = true;
-            this.tb3.Location = new System.Drawing.Point(480, 16);
+            this.tb3.Location = new System.Drawing.Point(640, 20);
+            this.tb3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tb3.Name = "tb3";
-            this.tb3.Size = new System.Drawing.Size(96, 13);
+            this.tb3.Size = new System.Drawing.Size(117, 16);
             this.tb3.TabIndex = 63;
             this.tb3.Text = "Họ Tên Nhân Viên";
             // 
             // xhTxtGoodsType
             // 
-            this.xhTxtGoodsType.Location = new System.Drawing.Point(481, -20);
+            this.xhTxtGoodsType.Location = new System.Drawing.Point(641, -25);
+            this.xhTxtGoodsType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhTxtGoodsType.Name = "xhTxtGoodsType";
-            this.xhTxtGoodsType.Size = new System.Drawing.Size(188, 20);
+            this.xhTxtGoodsType.Size = new System.Drawing.Size(249, 22);
             this.xhTxtGoodsType.TabIndex = 64;
             // 
             // employeeTxtName
             // 
-            this.employeeTxtName.Location = new System.Drawing.Point(481, 35);
+            this.employeeTxtName.Location = new System.Drawing.Point(641, 43);
+            this.employeeTxtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeTxtName.Name = "employeeTxtName";
-            this.employeeTxtName.Size = new System.Drawing.Size(188, 20);
+            this.employeeTxtName.Size = new System.Drawing.Size(249, 22);
             this.employeeTxtName.TabIndex = 65;
             // 
             // lb1
             // 
             this.lb1.AutoSize = true;
-            this.lb1.Location = new System.Drawing.Point(478, -36);
+            this.lb1.Location = new System.Drawing.Point(637, -44);
+            this.lb1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(65, 13);
+            this.lb1.Size = new System.Drawing.Size(78, 16);
             this.lb1.TabIndex = 66;
             this.lb1.Text = "LOẠI HÀNG";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(17, -36);
+            this.label6.Location = new System.Drawing.Point(23, -44);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 13);
+            this.label6.Size = new System.Drawing.Size(103, 16);
             this.label6.TabIndex = 67;
             this.label6.Text = "MÃ NHÂN VIÊN";
             // 
             // xhTxtEmployeeCode
             // 
-            this.xhTxtEmployeeCode.Location = new System.Drawing.Point(20, -20);
+            this.xhTxtEmployeeCode.Location = new System.Drawing.Point(27, -25);
+            this.xhTxtEmployeeCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhTxtEmployeeCode.Name = "xhTxtEmployeeCode";
-            this.xhTxtEmployeeCode.Size = new System.Drawing.Size(188, 20);
+            this.xhTxtEmployeeCode.Size = new System.Drawing.Size(249, 22);
             this.xhTxtEmployeeCode.TabIndex = 68;
             // 
             // employeeDtBirtDay
             // 
-            this.employeeDtBirtDay.Location = new System.Drawing.Point(20, 35);
+            this.employeeDtBirtDay.Location = new System.Drawing.Point(27, 43);
+            this.employeeDtBirtDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeDtBirtDay.Name = "employeeDtBirtDay";
-            this.employeeDtBirtDay.Size = new System.Drawing.Size(188, 20);
+            this.employeeDtBirtDay.Size = new System.Drawing.Size(249, 22);
             this.employeeDtBirtDay.TabIndex = 69;
             // 
             // employeeBtnAdd
             // 
-            this.employeeBtnAdd.Location = new System.Drawing.Point(20, 71);
+            this.employeeBtnAdd.Location = new System.Drawing.Point(27, 87);
+            this.employeeBtnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeBtnAdd.Name = "employeeBtnAdd";
-            this.employeeBtnAdd.Size = new System.Drawing.Size(104, 29);
+            this.employeeBtnAdd.Size = new System.Drawing.Size(139, 36);
             this.employeeBtnAdd.TabIndex = 71;
             this.employeeBtnAdd.Text = "THÊM";
             this.employeeBtnAdd.UseVisualStyleBackColor = true;
@@ -157,9 +168,10 @@
             // 
             // employeeBtnFix
             // 
-            this.employeeBtnFix.Location = new System.Drawing.Point(130, 71);
+            this.employeeBtnFix.Location = new System.Drawing.Point(173, 87);
+            this.employeeBtnFix.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeBtnFix.Name = "employeeBtnFix";
-            this.employeeBtnFix.Size = new System.Drawing.Size(104, 29);
+            this.employeeBtnFix.Size = new System.Drawing.Size(139, 36);
             this.employeeBtnFix.TabIndex = 72;
             this.employeeBtnFix.Text = "SỬA";
             this.employeeBtnFix.UseVisualStyleBackColor = true;
@@ -167,9 +179,10 @@
             // 
             // employeeBtnDel
             // 
-            this.employeeBtnDel.Location = new System.Drawing.Point(240, 71);
+            this.employeeBtnDel.Location = new System.Drawing.Point(320, 87);
+            this.employeeBtnDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeBtnDel.Name = "employeeBtnDel";
-            this.employeeBtnDel.Size = new System.Drawing.Size(104, 29);
+            this.employeeBtnDel.Size = new System.Drawing.Size(139, 36);
             this.employeeBtnDel.TabIndex = 73;
             this.employeeBtnDel.Text = "XÓA";
             this.employeeBtnDel.UseVisualStyleBackColor = true;
@@ -177,9 +190,10 @@
             // 
             // btnAddAccount
             // 
-            this.btnAddAccount.Location = new System.Drawing.Point(484, 239);
+            this.btnAddAccount.Location = new System.Drawing.Point(645, 294);
+            this.btnAddAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddAccount.Name = "btnAddAccount";
-            this.btnAddAccount.Size = new System.Drawing.Size(104, 30);
+            this.btnAddAccount.Size = new System.Drawing.Size(139, 37);
             this.btnAddAccount.TabIndex = 74;
             this.btnAddAccount.Text = "Tạo Tài Khoản";
             this.btnAddAccount.UseVisualStyleBackColor = true;
@@ -188,9 +202,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 16);
+            this.label7.Location = new System.Drawing.Point(23, 20);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 13);
+            this.label7.Size = new System.Drawing.Size(69, 16);
             this.label7.TabIndex = 70;
             this.label7.Text = "Ngày Sinh";
             // 
@@ -202,9 +217,11 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.employeeDgv.Location = new System.Drawing.Point(20, 177);
+            this.employeeDgv.Location = new System.Drawing.Point(27, 218);
+            this.employeeDgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeDgv.Name = "employeeDgv";
-            this.employeeDgv.Size = new System.Drawing.Size(455, 248);
+            this.employeeDgv.RowHeadersWidth = 51;
+            this.employeeDgv.Size = new System.Drawing.Size(607, 305);
             this.employeeDgv.TabIndex = 75;
             this.employeeDgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.employeeDgv_CellClick);
             this.employeeDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.employeeDgv_CellContentClick);
@@ -213,56 +230,68 @@
             // 
             this.Column1.DataPropertyName = "employeeCode";
             this.Column1.HeaderText = "Mã Nhân Viên";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
             // 
             // Column2
             // 
             this.Column2.DataPropertyName = "employeeName";
             this.Column2.HeaderText = "Họ Tên Nhân Viên";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
             // 
             // Column3
             // 
             this.Column3.DataPropertyName = "employeeDuty";
             this.Column3.HeaderText = "Chức Vụ";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
             // 
             // Column4
             // 
             this.Column4.DataPropertyName = "employeeBirthDay";
             this.Column4.HeaderText = "Ngày Sinh";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
             // 
             // employeeCbbDuty
             // 
             this.employeeCbbDuty.FormattingEnabled = true;
-            this.employeeCbbDuty.Location = new System.Drawing.Point(484, 77);
+            this.employeeCbbDuty.Location = new System.Drawing.Point(645, 95);
+            this.employeeCbbDuty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeCbbDuty.Name = "employeeCbbDuty";
-            this.employeeCbbDuty.Size = new System.Drawing.Size(184, 21);
+            this.employeeCbbDuty.Size = new System.Drawing.Size(244, 24);
             this.employeeCbbDuty.TabIndex = 76;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(481, 61);
+            this.label2.Location = new System.Drawing.Point(641, 75);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 13);
+            this.label2.Size = new System.Drawing.Size(121, 16);
             this.label2.TabIndex = 77;
             this.label2.Text = "Chức Vụ Nhân Viên";
             // 
             // employeeCbbSort
             // 
             this.employeeCbbSort.FormattingEnabled = true;
-            this.employeeCbbSort.Location = new System.Drawing.Point(484, 177);
+            this.employeeCbbSort.Location = new System.Drawing.Point(645, 218);
+            this.employeeCbbSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeCbbSort.Name = "employeeCbbSort";
-            this.employeeCbbSort.Size = new System.Drawing.Size(142, 21);
+            this.employeeCbbSort.Size = new System.Drawing.Size(188, 24);
             this.employeeCbbSort.TabIndex = 78;
             // 
             // employeeBtnSort
             // 
-            this.employeeBtnSort.Location = new System.Drawing.Point(483, 204);
+            this.employeeBtnSort.Location = new System.Drawing.Point(644, 251);
+            this.employeeBtnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeBtnSort.Name = "employeeBtnSort";
-            this.employeeBtnSort.Size = new System.Drawing.Size(105, 29);
+            this.employeeBtnSort.Size = new System.Drawing.Size(140, 36);
             this.employeeBtnSort.TabIndex = 79;
             this.employeeBtnSort.Text = "Lọc";
             this.employeeBtnSort.UseVisualStyleBackColor = true;
@@ -270,29 +299,20 @@
             // 
             // employeeBtnBackWard
             // 
-            this.employeeBtnBackWard.Location = new System.Drawing.Point(684, 409);
+            this.employeeBtnBackWard.Location = new System.Drawing.Point(912, 503);
+            this.employeeBtnBackWard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.employeeBtnBackWard.Name = "employeeBtnBackWard";
-            this.employeeBtnBackWard.Size = new System.Drawing.Size(104, 29);
+            this.employeeBtnBackWard.Size = new System.Drawing.Size(139, 36);
             this.employeeBtnBackWard.TabIndex = 80;
             this.employeeBtnBackWard.Text = "Trở Lại";
             this.employeeBtnBackWard.UseVisualStyleBackColor = true;
             this.employeeBtnBackWard.Click += new System.EventHandler(this.employeeBtnBackWard_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(484, 275);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 41);
-            this.button1.TabIndex = 81;
-            this.button1.Text = "Quản Lý Tài Khoản";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // EmployeeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.employeeBtnBackWard);
             this.Controls.Add(this.employeeBtnSort);
             this.Controls.Add(this.employeeCbbSort);
@@ -315,6 +335,7 @@
             this.Controls.Add(this.lb2);
             this.Controls.Add(this.xhTxtGoodsCode);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "EmployeeForm";
             this.Text = "EmployeeForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EmployeeForm_FormClosed);
@@ -353,6 +374,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Button button1;
     }
 }

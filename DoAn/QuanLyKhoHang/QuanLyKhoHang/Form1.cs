@@ -143,27 +143,27 @@ namespace QuanLyKhoHang
             //luu hoa don
             FileStream fs1 = new FileStream("invoice.dat", FileMode.Create);
             BinaryFormatter bf1 = new BinaryFormatter();
-            bf1.Serialize(fs, ListOfInvoice.Instance.InvoiceArray);
+            bf1.Serialize(fs1, ListOfInvoice.Instance.InvoiceArray);
             fs1.Close();
             //luu hang nhap
             FileStream fs2 = new FileStream("hangnhap.dat", FileMode.Create);
             BinaryFormatter bf2 = new BinaryFormatter();
-            bf2.Serialize(fs, DanhSachHangNhap.Instance.HangNhapArr);
+            bf2.Serialize(fs2, DanhSachHangNhap.Instance.HangNhapArr);
             fs2.Close();
             //luu hang xuat
             FileStream fs3 = new FileStream("hangxuat.dat", FileMode.Create);
             BinaryFormatter bf3 = new BinaryFormatter();
-            bf3.Serialize(fs, ExportGoodsList.Instance.ExportGoodsArray);
+            bf3.Serialize(fs3, ExportGoodsList.Instance.ExportGoodsArray);
             fs3.Close();
             //luu nhan vien
             FileStream fs4 = new FileStream("employee.dat", FileMode.Create);
             BinaryFormatter bf4 = new BinaryFormatter();
-            bf4.Serialize(fs, ListOfEmployee.Instance.EmployeeArray);
+            bf4.Serialize(fs4, ListOfEmployee.Instance.EmployeeArray);
             fs4.Close();
             //luu tai khoan
             FileStream fs5 = new FileStream("account.dat", FileMode.Create);
             BinaryFormatter bf5 = new BinaryFormatter();
-            bf5.Serialize(fs, ListofAccount.Instance.AccountArray);
+            bf5.Serialize(fs5, ListofAccount.Instance.AccountArray);
             fs5.Close();
         }
     }

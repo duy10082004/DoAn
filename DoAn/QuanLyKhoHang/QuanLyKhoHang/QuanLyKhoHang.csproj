@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account MH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account MH.Designer.cs">
+      <DependentUpon>Account MH.cs</DependentUpon>
+    </Compile>
     <Compile Include="AccountForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     <Compile Include="tk\ListofAccount.cs" />
     <Compile Include="xh\Export.cs" />
     <Compile Include="xh\ExportGoodsList.cs" />
+    <EmbeddedResource Include="Account MH.resx">
+      <DependentUpon>Account MH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </EmbeddedResource>

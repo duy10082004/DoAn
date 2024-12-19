@@ -8,6 +8,7 @@ using System.Windows.Forms.VisualStyles;
 
 namespace QuanLyKhoHang.hd
 {
+    [Serializable]
     internal class ImportInvoice:InvoiceManager
     {
         public ImportInvoice(string invoiceID, DateTime invoiceTime, string employeeCode)
