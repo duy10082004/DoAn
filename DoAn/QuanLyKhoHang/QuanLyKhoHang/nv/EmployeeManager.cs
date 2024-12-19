@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhoHang.nv
 {
+    [Serializable]
     internal class EmployeeManager
     {
         private string employeeCode;

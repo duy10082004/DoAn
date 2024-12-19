@@ -39,7 +39,5 @@ namespace QuanLyKhoHang.hd
         {
             invoiceArray.Add(invoice);
         }
-
-
     }
 }

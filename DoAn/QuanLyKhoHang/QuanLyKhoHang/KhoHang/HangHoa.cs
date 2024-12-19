@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace QuanLyKhoHang.KhoHang
 {
+    [Serializable]
     internal class HangHoa
     {
         private string hhMaHangHoa;

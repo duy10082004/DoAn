@@ -30,15 +30,15 @@
         {
             this.khBtnExit = new System.Windows.Forms.Button();
             this.dgvQuanLyHangHoa = new System.Windows.Forms.DataGridView();
+            this.khBtnUpdateExportPrice = new System.Windows.Forms.Button();
+            this.khCbbSort = new System.Windows.Forms.ComboBox();
+            this.khBtnSort = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.khBtnUpdateExportPrice = new System.Windows.Forms.Button();
-            this.khCbbSort = new System.Windows.Forms.ComboBox();
-            this.khBtnSort = new System.Windows.Forms.Button();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyHangHoa)).BeginInit();
             this.SuspendLayout();
@@ -70,6 +70,34 @@
             this.dgvQuanLyHangHoa.TabIndex = 2;
             this.dgvQuanLyHangHoa.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQuanLyHangHoa_CellClick);
             this.dgvQuanLyHangHoa.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQuanLyHangHoa_CellContentClick);
+            // 
+            // khBtnUpdateExportPrice
+            // 
+            this.khBtnUpdateExportPrice.Location = new System.Drawing.Point(772, 77);
+            this.khBtnUpdateExportPrice.Name = "khBtnUpdateExportPrice";
+            this.khBtnUpdateExportPrice.Size = new System.Drawing.Size(152, 32);
+            this.khBtnUpdateExportPrice.TabIndex = 3;
+            this.khBtnUpdateExportPrice.Text = "Cập Nhật Giá Bán";
+            this.khBtnUpdateExportPrice.UseVisualStyleBackColor = true;
+            this.khBtnUpdateExportPrice.Click += new System.EventHandler(this.khBtnUpdateExportPrice_Click);
+            // 
+            // khCbbSort
+            // 
+            this.khCbbSort.FormattingEnabled = true;
+            this.khCbbSort.Location = new System.Drawing.Point(772, 12);
+            this.khCbbSort.Name = "khCbbSort";
+            this.khCbbSort.Size = new System.Drawing.Size(152, 21);
+            this.khCbbSort.TabIndex = 4;
+            // 
+            // khBtnSort
+            // 
+            this.khBtnSort.Location = new System.Drawing.Point(772, 39);
+            this.khBtnSort.Name = "khBtnSort";
+            this.khBtnSort.Size = new System.Drawing.Size(152, 32);
+            this.khBtnSort.TabIndex = 5;
+            this.khBtnSort.Text = "Lọc";
+            this.khBtnSort.UseVisualStyleBackColor = true;
+            this.khBtnSort.Click += new System.EventHandler(this.khBtnSort_Click);
             // 
             // Column1
             // 
@@ -107,36 +135,9 @@
             this.Column6.HeaderText = "GIÁ BÁN";
             this.Column6.Name = "Column6";
             // 
-            // khBtnUpdateExportPrice
-            // 
-            this.khBtnUpdateExportPrice.Location = new System.Drawing.Point(772, 77);
-            this.khBtnUpdateExportPrice.Name = "khBtnUpdateExportPrice";
-            this.khBtnUpdateExportPrice.Size = new System.Drawing.Size(152, 32);
-            this.khBtnUpdateExportPrice.TabIndex = 3;
-            this.khBtnUpdateExportPrice.Text = "Cập Nhật Giá Bán";
-            this.khBtnUpdateExportPrice.UseVisualStyleBackColor = true;
-            this.khBtnUpdateExportPrice.Click += new System.EventHandler(this.khBtnUpdateExportPrice_Click);
-            // 
-            // khCbbSort
-            // 
-            this.khCbbSort.FormattingEnabled = true;
-            this.khCbbSort.Location = new System.Drawing.Point(772, 12);
-            this.khCbbSort.Name = "khCbbSort";
-            this.khCbbSort.Size = new System.Drawing.Size(152, 21);
-            this.khCbbSort.TabIndex = 4;
-            // 
-            // khBtnSort
-            // 
-            this.khBtnSort.Location = new System.Drawing.Point(772, 39);
-            this.khBtnSort.Name = "khBtnSort";
-            this.khBtnSort.Size = new System.Drawing.Size(152, 32);
-            this.khBtnSort.TabIndex = 5;
-            this.khBtnSort.Text = "Lọc";
-            this.khBtnSort.UseVisualStyleBackColor = true;
-            this.khBtnSort.Click += new System.EventHandler(this.khBtnSort_Click);
-            // 
             // Column7
             // 
+            this.Column7.DataPropertyName = "hhNhaCungCap";
             this.Column7.HeaderText = "Nhà Cung Cấp";
             this.Column7.Name = "Column7";
             // 
@@ -161,15 +162,15 @@
         #endregion
         private System.Windows.Forms.Button khBtnExit;
         private System.Windows.Forms.DataGridView dgvQuanLyHangHoa;
+        private System.Windows.Forms.Button khBtnUpdateExportPrice;
+        private System.Windows.Forms.ComboBox khCbbSort;
+        private System.Windows.Forms.Button khBtnSort;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.Button khBtnUpdateExportPrice;
-        private System.Windows.Forms.ComboBox khCbbSort;
-        private System.Windows.Forms.Button khBtnSort;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }

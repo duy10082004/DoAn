@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhoHang.NhapHang
 {
+    [Serializable]
     internal class HangNhap
     {
         private string nhImportOderCode;

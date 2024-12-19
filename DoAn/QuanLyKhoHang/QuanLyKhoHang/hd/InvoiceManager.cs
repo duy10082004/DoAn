@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace QuanLyKhoHang.hd
 {
+    [Serializable]
     internal class InvoiceManager
     {
         private string invoiceID;

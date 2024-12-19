@@ -63,6 +63,7 @@ namespace QuanLyKhoHang.Global_Variable
         public static string globalVariableEmployeeDuty = null;
         public static AccountManager accountTakedOut = null;
         public static EmployeeManager employeeTakedOut = null;
+        public static bool flag = false;
 
 
 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhoHang.tk
 {
+    [Serializable]
     internal class AccountManager
     {
         private string accountUserName;

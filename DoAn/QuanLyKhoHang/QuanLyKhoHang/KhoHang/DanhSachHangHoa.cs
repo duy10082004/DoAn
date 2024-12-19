@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhoHang.KhoHang
 {
+   
     internal class DanhSachHangHoa
     {
         private List <HangHoa> dsHangHoa;

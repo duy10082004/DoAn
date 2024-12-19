@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhoHang.xh
 {
+    [Serializable]
     internal class Export
     {
         private string employeeCode;

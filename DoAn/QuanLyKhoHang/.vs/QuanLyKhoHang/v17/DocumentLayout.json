@@ -3,68 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\exportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\exportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\khohang\\danhsachhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\khohang\\danhsachhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\khohang\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\khohang\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\global-variable\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\global-variable\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\nh\\danhsachhangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\nh\\danhsachhangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\nh\\hangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\nh\\hangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\invoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\invoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\accountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\accountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\accountshowform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\accountshowform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\accountinformationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\accountinformationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\accountshowform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\accountshowform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\exportpirceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\exportpirceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\global-variable\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\global-variable\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|c:\\users\\admin\\source\\repos\\doan\\doan\\quanlykhohang\\quanlykhohang\\xh\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\xh\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\tk\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\tk\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\nv\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\nv\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\nh\\hangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\nh\\hangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\hd\\invoicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\hd\\invoicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\hd\\listofinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\hd\\listofinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\khohang\\danhsachhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\khohang\\danhsachhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\khohang\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\khohang\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\tk\\listofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\tk\\listofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\goodsimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\exportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\exportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\nh\\danhsachhangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\nh\\danhsachhangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\quanlykhohang\\accountshowform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634D0AC7-1E92-45EB-AADB-30FA95894A9F}|QuanLyKhoHang\\QuanLyKhoHang.csproj|solutionrelative:quanlykhohang\\accountshowform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "AccountShowForm.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AccountShowForm.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\AccountShowForm.cs",
@@ -87,18 +111,17 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAFgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T15:01:24.404Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GlobalVariable.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
               "RelativeToolTip": "QuanLyKhoHang\\Global-Variable\\GlobalVariable.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAwD8AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T13:16:43.74Z",
               "IsPinned": true,
@@ -106,13 +129,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "GoodsImport.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\GoodsImport.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs",
               "RelativeToolTip": "QuanLyKhoHang\\GoodsImport.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAswEsAAAB9AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAWwDMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T08:41:15.836Z",
               "IsPinned": true,
@@ -120,44 +143,162 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExportPirceUpdate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\ExportPirceUpdate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportPirceUpdate.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\ExportPirceUpdate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:09:59.168Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoodsImport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\GoodsImport.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\GoodsImport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:09:57.882Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Export.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\xh\\Export.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\xh\\Export.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\xh\\Export.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\xh\\Export.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAwwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:49:16.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\tk\\AccountManager.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\tk\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\tk\\AccountManager.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\tk\\AccountManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:49:11.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\nv\\EmployeeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:49:05.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\hd\\InvoiceManager.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\hd\\InvoiceManager.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\hd\\InvoiceManager.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\hd\\InvoiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:48:50.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListofAccount.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\tk\\ListofAccount.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\tk\\ListofAccount.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\tk\\ListofAccount.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\tk\\ListofAccount.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:34:00.684Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AdminForm.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AdminForm.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:33:44.602Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ListOfInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\hd\\ListOfInvoice.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\hd\\ListOfInvoice.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\hd\\ListOfInvoice.cs",
+              "RelativeToolTip": "QuanLyKhoHang\\hd\\ListOfInvoice.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:18:57.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Form1.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoHang\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\Form1.cs [Design]",
+              "RelativeToolTip": "QuanLyKhoHang\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T11:40:16.894Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "EmployeeForm.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\EmployeeForm.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs",
               "RelativeToolTip": "QuanLyKhoHang\\EmployeeForm.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAuwJUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAuwKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:02:40.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:02:40.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "EmployeeForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\EmployeeForm.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\EmployeeForm.cs [Design]",
               "RelativeToolTip": "QuanLyKhoHang\\EmployeeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:02:39.041Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-12T09:02:39.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "ExportGoods.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportGoods.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\ExportGoods.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\ExportGoods.cs [Design]",
               "RelativeToolTip": "QuanLyKhoHang\\ExportGoods.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:55:26.505Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-12T08:55:26.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "QuanLy.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\QuanLy.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\QuanLy.cs",
@@ -169,33 +310,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "HangHoa.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\KhoHang\\HangHoa.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\KhoHang\\HangHoa.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\KhoHang\\HangHoa.cs",
               "RelativeToolTip": "QuanLyKhoHang\\KhoHang\\HangHoa.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:49:55.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:49:55.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "DanhSachHangHoa.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\KhoHang\\DanhSachHangHoa.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\KhoHang\\DanhSachHangHoa.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\KhoHang\\DanhSachHangHoa.cs",
               "RelativeToolTip": "QuanLyKhoHang\\KhoHang\\DanhSachHangHoa.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwEsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:44:50.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:44:50.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "DanhSachHangNhap.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nh\\DanhSachHangNhap.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\nh\\DanhSachHangNhap.cs",
@@ -203,8 +342,7 @@
               "RelativeToolTip": "QuanLyKhoHang\\nh\\DanhSachHangNhap.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:40:54.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:40:54.539Z"
             },
             {
               "$type": "Document",
@@ -214,79 +352,9 @@
               "RelativeDocumentMoniker": "QuanLyKhoHang\\nh\\HangNhap.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nh\\HangNhap.cs",
               "RelativeToolTip": "QuanLyKhoHang\\nh\\HangNhap.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAmwG8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:38:46.585Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e115107b-bc83-4bc3-921a-5564dd04b0ec",
-        "Display": 1,
-        "X": 83,
-        "Y": 225,
-        "Width": 1102,
-        "Height": 957,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 317,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InvoiceForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceForm.cs",
-              "RelativeDocumentMoniker": "QuanLyKhoHang\\InvoiceForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\InvoiceForm.cs [Design]",
-              "RelativeToolTip": "QuanLyKhoHang\\InvoiceForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:06:31.706Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GoodsImport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs",
-              "RelativeDocumentMoniker": "QuanLyKhoHang\\GoodsImport.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\GoodsImport.cs [Design]",
-              "RelativeToolTip": "QuanLyKhoHang\\GoodsImport.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:32:04.108Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AccountForm.cs",
-              "RelativeDocumentMoniker": "QuanLyKhoHang\\AccountForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AccountForm.cs [Design]",
-              "RelativeToolTip": "QuanLyKhoHang\\AccountForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T14:01:49.795Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AccountShowForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AccountShowForm.cs",
-              "RelativeDocumentMoniker": "QuanLyKhoHang\\AccountShowForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AccountShowForm.cs [Design]",
-              "RelativeToolTip": "QuanLyKhoHang\\AccountShowForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:51:04.108Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-12T08:38:46.585Z"
             }
           ]
         }
@@ -311,7 +379,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "AccountInformationForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\DoAn\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\AccountInformationForm.cs",
               "RelativeDocumentMoniker": "QuanLyKhoHang\\AccountInformationForm.cs",

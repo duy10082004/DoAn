@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DoAn",
+    "\\DoAn\\QuanLyKhoHang",
+    "\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang",
+    "\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv"
   ],
-  "SelectedNode": "\\QuanLyKhoHang.sln",
+  "SelectedNode": "\\DoAn\\QuanLyKhoHang\\QuanLyKhoHang\\nv\\ListOfEmployee.cs",
   "PreviewInSolutionExplorer": false
 }
