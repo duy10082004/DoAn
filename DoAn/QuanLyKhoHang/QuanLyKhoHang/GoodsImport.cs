@@ -45,7 +45,7 @@ namespace QuanLyKhoHang
             string nhGoodsType = idx.ToString();
             int nhGoodsQuantity = int.Parse(nhTxtGoodsQuantity.Text);
             int nhGoodsImportPrice = int.Parse(nhTxtGoodsImportPrice.Text);
-            string nhGoodsSupplier = nhTxtGoodsSupplier.Text;
+            string nhGoodsSupplier = cbGoodsSupplier.Text;
             HangNhap tmp = new HangNhap( nhEmployeeCode, nhImportTime, nhGoodsCode, nhGoodsName, nhGoodsType, nhGoodsQuantity, nhGoodsImportPrice, nhGoodsSupplier);
             tmp.NhImportOderCode = "DNH" + ListOfInvoice.Instance.InvoiceArray.Count;
             DanhSachHangNhap.Instance.AddNewGoods(tmp);
@@ -135,6 +135,9 @@ namespace QuanLyKhoHang
         {
             importGoodsLbEmployeeCode.Text = GlobalVariable.accountLogin.AccountEmployeeID;
             goodsImportCbb.DataSource = GlobalVariable.goodsTypeCbbValue;
+            //cbGoodsSupplier.Text = GlobalVariable.accountLogin.nhGoodsSupplier;
+            cbGoodsSupplier.DataSource = GlobalVariable.nhGoodsSupplier;
+
         }
     }
 }

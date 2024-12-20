@@ -70,7 +70,7 @@
             // xhTxtGoodsCode
             // 
             this.xhTxtGoodsCode.Location = new System.Drawing.Point(357, -25);
-            this.xhTxtGoodsCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xhTxtGoodsCode.Margin = new System.Windows.Forms.Padding(4);
             this.xhTxtGoodsCode.Name = "xhTxtGoodsCode";
             this.xhTxtGoodsCode.Size = new System.Drawing.Size(249, 22);
             this.xhTxtGoodsCode.TabIndex = 60;
@@ -88,10 +88,10 @@
             // employeeTxtCode
             // 
             this.employeeTxtCode.Location = new System.Drawing.Point(357, 43);
-            this.employeeTxtCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeTxtCode.Margin = new System.Windows.Forms.Padding(4);
             this.employeeTxtCode.Name = "employeeTxtCode";
             this.employeeTxtCode.Size = new System.Drawing.Size(249, 22);
-            this.employeeTxtCode.TabIndex = 62;
+            this.employeeTxtCode.TabIndex = 1;
             // 
             // tb3
             // 
@@ -106,7 +106,7 @@
             // xhTxtGoodsType
             // 
             this.xhTxtGoodsType.Location = new System.Drawing.Point(641, -25);
-            this.xhTxtGoodsType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xhTxtGoodsType.Margin = new System.Windows.Forms.Padding(4);
             this.xhTxtGoodsType.Name = "xhTxtGoodsType";
             this.xhTxtGoodsType.Size = new System.Drawing.Size(249, 22);
             this.xhTxtGoodsType.TabIndex = 64;
@@ -114,10 +114,10 @@
             // employeeTxtName
             // 
             this.employeeTxtName.Location = new System.Drawing.Point(641, 43);
-            this.employeeTxtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeTxtName.Margin = new System.Windows.Forms.Padding(4);
             this.employeeTxtName.Name = "employeeTxtName";
             this.employeeTxtName.Size = new System.Drawing.Size(249, 22);
-            this.employeeTxtName.TabIndex = 65;
+            this.employeeTxtName.TabIndex = 2;
             // 
             // lb1
             // 
@@ -142,7 +142,7 @@
             // xhTxtEmployeeCode
             // 
             this.xhTxtEmployeeCode.Location = new System.Drawing.Point(27, -25);
-            this.xhTxtEmployeeCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xhTxtEmployeeCode.Margin = new System.Windows.Forms.Padding(4);
             this.xhTxtEmployeeCode.Name = "xhTxtEmployeeCode";
             this.xhTxtEmployeeCode.Size = new System.Drawing.Size(249, 22);
             this.xhTxtEmployeeCode.TabIndex = 68;
@@ -150,48 +150,48 @@
             // employeeDtBirtDay
             // 
             this.employeeDtBirtDay.Location = new System.Drawing.Point(27, 43);
-            this.employeeDtBirtDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeDtBirtDay.Margin = new System.Windows.Forms.Padding(4);
             this.employeeDtBirtDay.Name = "employeeDtBirtDay";
             this.employeeDtBirtDay.Size = new System.Drawing.Size(249, 22);
-            this.employeeDtBirtDay.TabIndex = 69;
+            this.employeeDtBirtDay.TabIndex = 0;
             // 
             // employeeBtnAdd
             // 
             this.employeeBtnAdd.Location = new System.Drawing.Point(27, 87);
-            this.employeeBtnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeBtnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.employeeBtnAdd.Name = "employeeBtnAdd";
             this.employeeBtnAdd.Size = new System.Drawing.Size(139, 36);
-            this.employeeBtnAdd.TabIndex = 71;
-            this.employeeBtnAdd.Text = "THÊM";
+            this.employeeBtnAdd.TabIndex = 4;
+            this.employeeBtnAdd.Text = "&THÊM";
             this.employeeBtnAdd.UseVisualStyleBackColor = true;
             this.employeeBtnAdd.Click += new System.EventHandler(this.employeeBtnAdd_Click);
             // 
             // employeeBtnFix
             // 
             this.employeeBtnFix.Location = new System.Drawing.Point(173, 87);
-            this.employeeBtnFix.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeBtnFix.Margin = new System.Windows.Forms.Padding(4);
             this.employeeBtnFix.Name = "employeeBtnFix";
             this.employeeBtnFix.Size = new System.Drawing.Size(139, 36);
-            this.employeeBtnFix.TabIndex = 72;
-            this.employeeBtnFix.Text = "SỬA";
+            this.employeeBtnFix.TabIndex = 5;
+            this.employeeBtnFix.Text = "&SỬA";
             this.employeeBtnFix.UseVisualStyleBackColor = true;
             this.employeeBtnFix.Click += new System.EventHandler(this.employeeBtnFix_Click);
             // 
             // employeeBtnDel
             // 
             this.employeeBtnDel.Location = new System.Drawing.Point(320, 87);
-            this.employeeBtnDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeBtnDel.Margin = new System.Windows.Forms.Padding(4);
             this.employeeBtnDel.Name = "employeeBtnDel";
             this.employeeBtnDel.Size = new System.Drawing.Size(139, 36);
-            this.employeeBtnDel.TabIndex = 73;
-            this.employeeBtnDel.Text = "XÓA";
+            this.employeeBtnDel.TabIndex = 6;
+            this.employeeBtnDel.Text = "&XÓA";
             this.employeeBtnDel.UseVisualStyleBackColor = true;
             this.employeeBtnDel.Click += new System.EventHandler(this.employeeBtnDel_Click);
             // 
             // btnAddAccount
             // 
             this.btnAddAccount.Location = new System.Drawing.Point(645, 294);
-            this.btnAddAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddAccount.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddAccount.Name = "btnAddAccount";
             this.btnAddAccount.Size = new System.Drawing.Size(139, 37);
             this.btnAddAccount.TabIndex = 74;
@@ -218,7 +218,7 @@
             this.Column3,
             this.Column4});
             this.employeeDgv.Location = new System.Drawing.Point(27, 218);
-            this.employeeDgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeDgv.Margin = new System.Windows.Forms.Padding(4);
             this.employeeDgv.Name = "employeeDgv";
             this.employeeDgv.RowHeadersWidth = 51;
             this.employeeDgv.Size = new System.Drawing.Size(607, 305);
@@ -262,10 +262,10 @@
             // 
             this.employeeCbbDuty.FormattingEnabled = true;
             this.employeeCbbDuty.Location = new System.Drawing.Point(645, 95);
-            this.employeeCbbDuty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeCbbDuty.Margin = new System.Windows.Forms.Padding(4);
             this.employeeCbbDuty.Name = "employeeCbbDuty";
             this.employeeCbbDuty.Size = new System.Drawing.Size(244, 24);
-            this.employeeCbbDuty.TabIndex = 76;
+            this.employeeCbbDuty.TabIndex = 3;
             // 
             // label2
             // 
@@ -281,7 +281,7 @@
             // 
             this.employeeCbbSort.FormattingEnabled = true;
             this.employeeCbbSort.Location = new System.Drawing.Point(645, 218);
-            this.employeeCbbSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeCbbSort.Margin = new System.Windows.Forms.Padding(4);
             this.employeeCbbSort.Name = "employeeCbbSort";
             this.employeeCbbSort.Size = new System.Drawing.Size(188, 24);
             this.employeeCbbSort.TabIndex = 78;
@@ -289,7 +289,7 @@
             // employeeBtnSort
             // 
             this.employeeBtnSort.Location = new System.Drawing.Point(644, 251);
-            this.employeeBtnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeBtnSort.Margin = new System.Windows.Forms.Padding(4);
             this.employeeBtnSort.Name = "employeeBtnSort";
             this.employeeBtnSort.Size = new System.Drawing.Size(140, 36);
             this.employeeBtnSort.TabIndex = 79;
@@ -300,11 +300,11 @@
             // employeeBtnBackWard
             // 
             this.employeeBtnBackWard.Location = new System.Drawing.Point(912, 503);
-            this.employeeBtnBackWard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.employeeBtnBackWard.Margin = new System.Windows.Forms.Padding(4);
             this.employeeBtnBackWard.Name = "employeeBtnBackWard";
             this.employeeBtnBackWard.Size = new System.Drawing.Size(139, 36);
-            this.employeeBtnBackWard.TabIndex = 80;
-            this.employeeBtnBackWard.Text = "Trở Lại";
+            this.employeeBtnBackWard.TabIndex = 7;
+            this.employeeBtnBackWard.Text = "&Trở Lại";
             this.employeeBtnBackWard.UseVisualStyleBackColor = true;
             this.employeeBtnBackWard.Click += new System.EventHandler(this.employeeBtnBackWard_Click);
             // 
@@ -335,7 +335,7 @@
             this.Controls.Add(this.lb2);
             this.Controls.Add(this.xhTxtGoodsCode);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EmployeeForm";
             this.Text = "EmployeeForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EmployeeForm_FormClosed);

@@ -42,106 +42,116 @@
             // 
             // adminBtnKhoHang
             // 
-            this.adminBtnKhoHang.Location = new System.Drawing.Point(12, 12);
+            this.adminBtnKhoHang.Location = new System.Drawing.Point(16, 15);
+            this.adminBtnKhoHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adminBtnKhoHang.Name = "adminBtnKhoHang";
-            this.adminBtnKhoHang.Size = new System.Drawing.Size(134, 34);
+            this.adminBtnKhoHang.Size = new System.Drawing.Size(179, 42);
             this.adminBtnKhoHang.TabIndex = 0;
-            this.adminBtnKhoHang.Text = "Kiểm Tra Kho Hàng";
+            this.adminBtnKhoHang.Text = "&Kiểm Tra Kho Hàng";
             this.adminBtnKhoHang.UseVisualStyleBackColor = true;
             this.adminBtnKhoHang.Click += new System.EventHandler(this.adminBtnKhoHang_Click);
             // 
             // adminBtnNhapHang
             // 
-            this.adminBtnNhapHang.Location = new System.Drawing.Point(12, 52);
+            this.adminBtnNhapHang.Location = new System.Drawing.Point(16, 64);
+            this.adminBtnNhapHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adminBtnNhapHang.Name = "adminBtnNhapHang";
-            this.adminBtnNhapHang.Size = new System.Drawing.Size(134, 34);
+            this.adminBtnNhapHang.Size = new System.Drawing.Size(179, 42);
             this.adminBtnNhapHang.TabIndex = 1;
-            this.adminBtnNhapHang.Text = "Nhập Hàng";
+            this.adminBtnNhapHang.Text = "&Nhập Hàng";
             this.adminBtnNhapHang.UseVisualStyleBackColor = true;
             this.adminBtnNhapHang.Click += new System.EventHandler(this.adminBtnNhapHang_Click);
             // 
             // adminBtnXuatHang
             // 
-            this.adminBtnXuatHang.Location = new System.Drawing.Point(12, 92);
+            this.adminBtnXuatHang.Location = new System.Drawing.Point(16, 113);
+            this.adminBtnXuatHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adminBtnXuatHang.Name = "adminBtnXuatHang";
-            this.adminBtnXuatHang.Size = new System.Drawing.Size(134, 34);
+            this.adminBtnXuatHang.Size = new System.Drawing.Size(179, 42);
             this.adminBtnXuatHang.TabIndex = 2;
-            this.adminBtnXuatHang.Text = "Xuất Hàng";
+            this.adminBtnXuatHang.Text = "&Xuất Hàng";
             this.adminBtnXuatHang.UseVisualStyleBackColor = true;
             this.adminBtnXuatHang.Click += new System.EventHandler(this.adminBtnXuatHang_Click);
             // 
             // adminBtnXemHoaDon
             // 
-            this.adminBtnXemHoaDon.Location = new System.Drawing.Point(12, 132);
+            this.adminBtnXemHoaDon.Location = new System.Drawing.Point(16, 162);
+            this.adminBtnXemHoaDon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adminBtnXemHoaDon.Name = "adminBtnXemHoaDon";
-            this.adminBtnXemHoaDon.Size = new System.Drawing.Size(134, 34);
+            this.adminBtnXemHoaDon.Size = new System.Drawing.Size(179, 42);
             this.adminBtnXemHoaDon.TabIndex = 3;
-            this.adminBtnXemHoaDon.Text = "Xem Hóa Đơn";
+            this.adminBtnXemHoaDon.Text = "&Xem Hóa Đơn";
             this.adminBtnXemHoaDon.UseVisualStyleBackColor = true;
             this.adminBtnXemHoaDon.Click += new System.EventHandler(this.adminBtnXemHoaDon_Click);
             // 
             // adminBtnExit
             // 
-            this.adminBtnExit.Location = new System.Drawing.Point(12, 212);
+            this.adminBtnExit.Location = new System.Drawing.Point(16, 261);
+            this.adminBtnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adminBtnExit.Name = "adminBtnExit";
-            this.adminBtnExit.Size = new System.Drawing.Size(134, 31);
-            this.adminBtnExit.TabIndex = 4;
-            this.adminBtnExit.Text = "Thoát";
+            this.adminBtnExit.Size = new System.Drawing.Size(179, 38);
+            this.adminBtnExit.TabIndex = 5;
+            this.adminBtnExit.Text = "&Thoát";
             this.adminBtnExit.UseVisualStyleBackColor = true;
             this.adminBtnExit.Click += new System.EventHandler(this.adminBtnExit_Click);
             // 
             // adminBtn
             // 
-            this.adminBtn.Location = new System.Drawing.Point(12, 172);
+            this.adminBtn.Location = new System.Drawing.Point(16, 212);
+            this.adminBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adminBtn.Name = "adminBtn";
-            this.adminBtn.Size = new System.Drawing.Size(134, 34);
-            this.adminBtn.TabIndex = 5;
-            this.adminBtn.Text = "Quản Lý";
+            this.adminBtn.Size = new System.Drawing.Size(179, 42);
+            this.adminBtn.TabIndex = 4;
+            this.adminBtn.Text = "&Quản Lý";
             this.adminBtn.UseVisualStyleBackColor = true;
             this.adminBtn.Click += new System.EventHandler(this.adminBtnEmployee_Click);
             // 
             // formLBMaNhanVien
             // 
             this.formLBMaNhanVien.AutoSize = true;
-            this.formLBMaNhanVien.Location = new System.Drawing.Point(179, 33);
+            this.formLBMaNhanVien.Location = new System.Drawing.Point(239, 41);
+            this.formLBMaNhanVien.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.formLBMaNhanVien.Name = "formLBMaNhanVien";
-            this.formLBMaNhanVien.Size = new System.Drawing.Size(75, 13);
+            this.formLBMaNhanVien.Size = new System.Drawing.Size(91, 16);
             this.formLBMaNhanVien.TabIndex = 6;
             this.formLBMaNhanVien.Text = "Ma Nhan Vien";
             // 
             // formLbHoTenNhanVien
             // 
             this.formLbHoTenNhanVien.AutoSize = true;
-            this.formLbHoTenNhanVien.Location = new System.Drawing.Point(179, 52);
+            this.formLbHoTenNhanVien.Location = new System.Drawing.Point(239, 64);
+            this.formLbHoTenNhanVien.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.formLbHoTenNhanVien.Name = "formLbHoTenNhanVien";
-            this.formLbHoTenNhanVien.Size = new System.Drawing.Size(35, 13);
+            this.formLbHoTenNhanVien.Size = new System.Drawing.Size(44, 16);
             this.formLbHoTenNhanVien.TabIndex = 7;
             this.formLbHoTenNhanVien.Text = "label2";
             // 
             // formLbChucVu
             // 
             this.formLbChucVu.AutoSize = true;
-            this.formLbChucVu.Location = new System.Drawing.Point(179, 73);
+            this.formLbChucVu.Location = new System.Drawing.Point(239, 90);
+            this.formLbChucVu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.formLbChucVu.Name = "formLbChucVu";
-            this.formLbChucVu.Size = new System.Drawing.Size(35, 13);
+            this.formLbChucVu.Size = new System.Drawing.Size(44, 16);
             this.formLbChucVu.TabIndex = 8;
             this.formLbChucVu.Text = "label3";
             // 
             // adminBtnLogOut
             // 
-            this.adminBtnLogOut.Location = new System.Drawing.Point(182, 212);
+            this.adminBtnLogOut.Location = new System.Drawing.Point(243, 261);
+            this.adminBtnLogOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adminBtnLogOut.Name = "adminBtnLogOut";
-            this.adminBtnLogOut.Size = new System.Drawing.Size(134, 31);
-            this.adminBtnLogOut.TabIndex = 9;
-            this.adminBtnLogOut.Text = "Đăng Xuất";
+            this.adminBtnLogOut.Size = new System.Drawing.Size(179, 38);
+            this.adminBtnLogOut.TabIndex = 6;
+            this.adminBtnLogOut.Text = "&Đăng Xuất";
             this.adminBtnLogOut.UseVisualStyleBackColor = true;
             this.adminBtnLogOut.Click += new System.EventHandler(this.adminBtnLogOut_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 260);
+            this.ClientSize = new System.Drawing.Size(436, 320);
             this.Controls.Add(this.adminBtnLogOut);
             this.Controls.Add(this.formLbChucVu);
             this.Controls.Add(this.formLbHoTenNhanVien);
@@ -152,6 +162,7 @@
             this.Controls.Add(this.adminBtnXuatHang);
             this.Controls.Add(this.adminBtnNhapHang);
             this.Controls.Add(this.adminBtnKhoHang);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);

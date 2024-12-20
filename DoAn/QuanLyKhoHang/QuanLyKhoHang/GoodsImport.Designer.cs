@@ -29,6 +29,16 @@
         private void InitializeComponent()
         {
             this.nhDgvImportGoodsList = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nhBtnConfirm = new System.Windows.Forms.Button();
             this.nhBtnDel = new System.Windows.Forms.Button();
             this.nhBtnFix = new System.Windows.Forms.Button();
@@ -48,18 +58,8 @@
             this.nhBtnBackward = new System.Windows.Forms.Button();
             this.goodsImportCbb = new System.Windows.Forms.ComboBox();
             this.importGoodsLbEmployeeCode = new System.Windows.Forms.Label();
-            this.nhTxtGoodsSupplier = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cbGoodsSupplier = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.nhDgvImportGoodsList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,263 +77,307 @@
             this.Column8,
             this.Column9,
             this.Column10});
-            this.nhDgvImportGoodsList.Location = new System.Drawing.Point(46, 238);
+            this.nhDgvImportGoodsList.Location = new System.Drawing.Point(61, 293);
+            this.nhDgvImportGoodsList.Margin = new System.Windows.Forms.Padding(4);
             this.nhDgvImportGoodsList.Name = "nhDgvImportGoodsList";
-            this.nhDgvImportGoodsList.Size = new System.Drawing.Size(747, 301);
+            this.nhDgvImportGoodsList.RowHeadersWidth = 51;
+            this.nhDgvImportGoodsList.Size = new System.Drawing.Size(996, 370);
             this.nhDgvImportGoodsList.TabIndex = 37;
             this.nhDgvImportGoodsList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.nhDgvImportGoodsList_CellClick);
             this.nhDgvImportGoodsList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "nhGoodsCode";
+            this.Column1.HeaderText = "Mã Hàng";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "nhGoodsType";
+            this.Column2.HeaderText = "Loại Hàng";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "nhGoodsName";
+            this.Column3.HeaderText = "Tên Hàng";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "nhGoodsQuantity";
+            this.Column4.HeaderText = "Số Lượng";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "nhGoodsImportPrice";
+            this.Column5.HeaderText = "Giá Nhập";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 125;
+            // 
+            // Column6
+            // 
+            this.Column6.DataPropertyName = "nhTotalGoodsImportPrice";
+            this.Column6.HeaderText = "Thành Tiền";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 125;
+            // 
+            // Column7
+            // 
+            this.Column7.DataPropertyName = "nhEmployeeCode";
+            this.Column7.HeaderText = "Column7";
+            this.Column7.MinimumWidth = 6;
+            this.Column7.Name = "Column7";
+            this.Column7.Visible = false;
+            this.Column7.Width = 125;
+            // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "nhImportTime";
+            this.Column8.HeaderText = "Column8";
+            this.Column8.MinimumWidth = 6;
+            this.Column8.Name = "Column8";
+            this.Column8.Visible = false;
+            this.Column8.Width = 125;
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "nhImportOderCode";
+            this.Column9.HeaderText = "Column9";
+            this.Column9.MinimumWidth = 6;
+            this.Column9.Name = "Column9";
+            this.Column9.Visible = false;
+            this.Column9.Width = 125;
+            // 
+            // Column10
+            // 
+            this.Column10.DataPropertyName = "nhGoodsSupplier";
+            this.Column10.HeaderText = "Nhà Cung Cấp ";
+            this.Column10.MinimumWidth = 6;
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 125;
+            // 
             // nhBtnConfirm
             // 
-            this.nhBtnConfirm.Location = new System.Drawing.Point(412, 152);
+            this.nhBtnConfirm.Location = new System.Drawing.Point(549, 187);
+            this.nhBtnConfirm.Margin = new System.Windows.Forms.Padding(4);
             this.nhBtnConfirm.Name = "nhBtnConfirm";
-            this.nhBtnConfirm.Size = new System.Drawing.Size(104, 29);
-            this.nhBtnConfirm.TabIndex = 36;
-            this.nhBtnConfirm.Text = "XÁC NHẬN";
+            this.nhBtnConfirm.Size = new System.Drawing.Size(139, 36);
+            this.nhBtnConfirm.TabIndex = 10;
+            this.nhBtnConfirm.Text = "&XÁC NHẬN";
             this.nhBtnConfirm.UseVisualStyleBackColor = true;
             this.nhBtnConfirm.Click += new System.EventHandler(this.nhBtnConfirm_Click);
             // 
             // nhBtnDel
             // 
-            this.nhBtnDel.Location = new System.Drawing.Point(300, 152);
+            this.nhBtnDel.Location = new System.Drawing.Point(400, 187);
+            this.nhBtnDel.Margin = new System.Windows.Forms.Padding(4);
             this.nhBtnDel.Name = "nhBtnDel";
-            this.nhBtnDel.Size = new System.Drawing.Size(104, 29);
-            this.nhBtnDel.TabIndex = 35;
-            this.nhBtnDel.Text = "XÓA";
+            this.nhBtnDel.Size = new System.Drawing.Size(139, 36);
+            this.nhBtnDel.TabIndex = 9;
+            this.nhBtnDel.Text = "&XÓA";
             this.nhBtnDel.UseVisualStyleBackColor = true;
             this.nhBtnDel.Click += new System.EventHandler(this.nhBtnDel_Click);
             // 
             // nhBtnFix
             // 
-            this.nhBtnFix.Location = new System.Drawing.Point(190, 152);
+            this.nhBtnFix.Location = new System.Drawing.Point(253, 187);
+            this.nhBtnFix.Margin = new System.Windows.Forms.Padding(4);
             this.nhBtnFix.Name = "nhBtnFix";
-            this.nhBtnFix.Size = new System.Drawing.Size(104, 29);
-            this.nhBtnFix.TabIndex = 34;
-            this.nhBtnFix.Text = "SỬA";
+            this.nhBtnFix.Size = new System.Drawing.Size(139, 36);
+            this.nhBtnFix.TabIndex = 8;
+            this.nhBtnFix.Text = "&SỬA";
             this.nhBtnFix.UseVisualStyleBackColor = true;
             this.nhBtnFix.Click += new System.EventHandler(this.nhBtnFix_Click);
             // 
             // nhBtnAdd
             // 
-            this.nhBtnAdd.Location = new System.Drawing.Point(80, 152);
+            this.nhBtnAdd.Location = new System.Drawing.Point(107, 187);
+            this.nhBtnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.nhBtnAdd.Name = "nhBtnAdd";
-            this.nhBtnAdd.Size = new System.Drawing.Size(104, 29);
-            this.nhBtnAdd.TabIndex = 33;
-            this.nhBtnAdd.Text = "THÊM";
+            this.nhBtnAdd.Size = new System.Drawing.Size(139, 36);
+            this.nhBtnAdd.TabIndex = 7;
+            this.nhBtnAdd.Text = "&THÊM";
             this.nhBtnAdd.UseVisualStyleBackColor = true;
             this.nhBtnAdd.Click += new System.EventHandler(this.nhBtnAdd_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(77, 97);
+            this.label7.Location = new System.Drawing.Point(103, 119);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 13);
+            this.label7.Size = new System.Drawing.Size(128, 16);
             this.label7.TabIndex = 32;
             this.label7.Text = "NGÀY NHẬP HÀNG";
             // 
             // nhDtImportTime
             // 
-            this.nhDtImportTime.Location = new System.Drawing.Point(80, 116);
+            this.nhDtImportTime.Location = new System.Drawing.Point(107, 143);
+            this.nhDtImportTime.Margin = new System.Windows.Forms.Padding(4);
             this.nhDtImportTime.Name = "nhDtImportTime";
-            this.nhDtImportTime.Size = new System.Drawing.Size(188, 20);
-            this.nhDtImportTime.TabIndex = 31;
+            this.nhDtImportTime.Size = new System.Drawing.Size(249, 22);
+            this.nhDtImportTime.TabIndex = 2;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(77, 45);
+            this.label6.Location = new System.Drawing.Point(103, 55);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 13);
+            this.label6.Size = new System.Drawing.Size(103, 16);
             this.label6.TabIndex = 29;
             this.label6.Text = "MÃ NHÂN VIÊN";
             // 
             // nhTxtGoodsImportPrice
             // 
-            this.nhTxtGoodsImportPrice.Location = new System.Drawing.Point(541, 161);
+            this.nhTxtGoodsImportPrice.Location = new System.Drawing.Point(721, 198);
+            this.nhTxtGoodsImportPrice.Margin = new System.Windows.Forms.Padding(4);
             this.nhTxtGoodsImportPrice.Name = "nhTxtGoodsImportPrice";
-            this.nhTxtGoodsImportPrice.Size = new System.Drawing.Size(188, 20);
-            this.nhTxtGoodsImportPrice.TabIndex = 28;
+            this.nhTxtGoodsImportPrice.Size = new System.Drawing.Size(249, 22);
+            this.nhTxtGoodsImportPrice.TabIndex = 5;
             // 
             // lb1
             // 
             this.lb1.AutoSize = true;
-            this.lb1.Location = new System.Drawing.Point(538, 45);
+            this.lb1.Location = new System.Drawing.Point(717, 55);
+            this.lb1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(65, 13);
+            this.lb1.Size = new System.Drawing.Size(78, 16);
             this.lb1.TabIndex = 27;
             this.lb1.Text = "LOẠI HÀNG";
             // 
             // nhTxtGoodsQuantity
             // 
-            this.nhTxtGoodsQuantity.Location = new System.Drawing.Point(541, 116);
+            this.nhTxtGoodsQuantity.Location = new System.Drawing.Point(721, 143);
+            this.nhTxtGoodsQuantity.Margin = new System.Windows.Forms.Padding(4);
             this.nhTxtGoodsQuantity.Name = "nhTxtGoodsQuantity";
-            this.nhTxtGoodsQuantity.Size = new System.Drawing.Size(188, 20);
-            this.nhTxtGoodsQuantity.TabIndex = 26;
+            this.nhTxtGoodsQuantity.Size = new System.Drawing.Size(249, 22);
+            this.nhTxtGoodsQuantity.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(545, 145);
+            this.label4.Location = new System.Drawing.Point(727, 178);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 13);
+            this.label4.Size = new System.Drawing.Size(70, 16);
             this.label4.TabIndex = 25;
             this.label4.Text = "GIÁ NHẬP";
             // 
             // tb3
             // 
             this.tb3.AutoSize = true;
-            this.tb3.Location = new System.Drawing.Point(540, 97);
+            this.tb3.Location = new System.Drawing.Point(720, 119);
+            this.tb3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tb3.Name = "tb3";
-            this.tb3.Size = new System.Drawing.Size(63, 13);
+            this.tb3.Size = new System.Drawing.Size(76, 16);
             this.tb3.TabIndex = 23;
             this.tb3.Text = "SỐ LƯỢNG";
             // 
             // nhTxtGoodsName
             // 
-            this.nhTxtGoodsName.Location = new System.Drawing.Point(328, 116);
+            this.nhTxtGoodsName.Location = new System.Drawing.Point(437, 143);
+            this.nhTxtGoodsName.Margin = new System.Windows.Forms.Padding(4);
             this.nhTxtGoodsName.Name = "nhTxtGoodsName";
-            this.nhTxtGoodsName.Size = new System.Drawing.Size(188, 20);
-            this.nhTxtGoodsName.TabIndex = 22;
+            this.nhTxtGoodsName.Size = new System.Drawing.Size(249, 22);
+            this.nhTxtGoodsName.TabIndex = 3;
             // 
             // lb2
             // 
             this.lb2.AutoSize = true;
-            this.lb2.Location = new System.Drawing.Point(325, 97);
+            this.lb2.Location = new System.Drawing.Point(433, 119);
+            this.lb2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(63, 13);
+            this.lb2.Size = new System.Drawing.Size(77, 16);
             this.lb2.TabIndex = 21;
             this.lb2.Text = "TÊN HÀNG";
             // 
             // nhTxtGoodsCode
             // 
-            this.nhTxtGoodsCode.Location = new System.Drawing.Point(328, 61);
+            this.nhTxtGoodsCode.Location = new System.Drawing.Point(437, 75);
+            this.nhTxtGoodsCode.Margin = new System.Windows.Forms.Padding(4);
             this.nhTxtGoodsCode.Name = "nhTxtGoodsCode";
-            this.nhTxtGoodsCode.Size = new System.Drawing.Size(188, 20);
-            this.nhTxtGoodsCode.TabIndex = 20;
+            this.nhTxtGoodsCode.Size = new System.Drawing.Size(249, 22);
+            this.nhTxtGoodsCode.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(325, 45);
+            this.label1.Location = new System.Drawing.Point(433, 55);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 19;
             this.label1.Text = "MÃ HÀNG";
             // 
             // nhBtnBackward
             // 
-            this.nhBtnBackward.Location = new System.Drawing.Point(778, 545);
+            this.nhBtnBackward.Location = new System.Drawing.Point(1037, 671);
+            this.nhBtnBackward.Margin = new System.Windows.Forms.Padding(4);
             this.nhBtnBackward.Name = "nhBtnBackward";
-            this.nhBtnBackward.Size = new System.Drawing.Size(66, 22);
-            this.nhBtnBackward.TabIndex = 38;
-            this.nhBtnBackward.Text = "TRỞ LẠI";
+            this.nhBtnBackward.Size = new System.Drawing.Size(88, 27);
+            this.nhBtnBackward.TabIndex = 11;
+            this.nhBtnBackward.Text = "&TRỞ LẠI";
             this.nhBtnBackward.UseVisualStyleBackColor = true;
             this.nhBtnBackward.Click += new System.EventHandler(this.nhBtnBackward_Click);
             // 
             // goodsImportCbb
             // 
             this.goodsImportCbb.FormattingEnabled = true;
-            this.goodsImportCbb.Location = new System.Drawing.Point(541, 61);
+            this.goodsImportCbb.Location = new System.Drawing.Point(721, 75);
+            this.goodsImportCbb.Margin = new System.Windows.Forms.Padding(4);
             this.goodsImportCbb.Name = "goodsImportCbb";
-            this.goodsImportCbb.Size = new System.Drawing.Size(188, 21);
-            this.goodsImportCbb.TabIndex = 39;
+            this.goodsImportCbb.Size = new System.Drawing.Size(249, 24);
+            this.goodsImportCbb.TabIndex = 1;
             // 
             // importGoodsLbEmployeeCode
             // 
             this.importGoodsLbEmployeeCode.AutoSize = true;
-            this.importGoodsLbEmployeeCode.Location = new System.Drawing.Point(83, 66);
+            this.importGoodsLbEmployeeCode.Location = new System.Drawing.Point(111, 81);
+            this.importGoodsLbEmployeeCode.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.importGoodsLbEmployeeCode.Name = "importGoodsLbEmployeeCode";
-            this.importGoodsLbEmployeeCode.Size = new System.Drawing.Size(35, 13);
+            this.importGoodsLbEmployeeCode.Size = new System.Drawing.Size(44, 16);
             this.importGoodsLbEmployeeCode.TabIndex = 40;
             this.importGoodsLbEmployeeCode.Text = "label2";
-            // 
-            // nhTxtGoodsSupplier
-            // 
-            this.nhTxtGoodsSupplier.Location = new System.Drawing.Point(541, 209);
-            this.nhTxtGoodsSupplier.Name = "nhTxtGoodsSupplier";
-            this.nhTxtGoodsSupplier.Size = new System.Drawing.Size(188, 20);
-            this.nhTxtGoodsSupplier.TabIndex = 42;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(545, 193);
+            this.label2.Location = new System.Drawing.Point(727, 238);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(94, 16);
             this.label2.TabIndex = 41;
             this.label2.Text = "Nhà Cung Cấp";
             // 
-            // Column1
+            // cbGoodsSupplier
             // 
-            this.Column1.DataPropertyName = "nhGoodsCode";
-            this.Column1.HeaderText = "Mã Hàng";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "nhGoodsType";
-            this.Column2.HeaderText = "Loại Hàng";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "nhGoodsName";
-            this.Column3.HeaderText = "Tên Hàng";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "nhGoodsQuantity";
-            this.Column4.HeaderText = "Số Lượng";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.DataPropertyName = "nhGoodsImportPrice";
-            this.Column5.HeaderText = "Giá Nhập";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.DataPropertyName = "nhTotalGoodsImportPrice";
-            this.Column6.HeaderText = "Thành Tiền";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.DataPropertyName = "nhEmployeeCode";
-            this.Column7.HeaderText = "Column7";
-            this.Column7.Name = "Column7";
-            this.Column7.Visible = false;
-            // 
-            // Column8
-            // 
-            this.Column8.DataPropertyName = "nhImportTime";
-            this.Column8.HeaderText = "Column8";
-            this.Column8.Name = "Column8";
-            this.Column8.Visible = false;
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "nhImportOderCode";
-            this.Column9.HeaderText = "Column9";
-            this.Column9.Name = "Column9";
-            this.Column9.Visible = false;
-            // 
-            // Column10
-            // 
-            this.Column10.DataPropertyName = "nhGoodsSupplier";
-            this.Column10.HeaderText = "Nhà Cung Cấp ";
-            this.Column10.Name = "Column10";
+            this.cbGoodsSupplier.FormattingEnabled = true;
+            this.cbGoodsSupplier.Location = new System.Drawing.Point(723, 258);
+            this.cbGoodsSupplier.Name = "cbGoodsSupplier";
+            this.cbGoodsSupplier.Size = new System.Drawing.Size(247, 24);
+            this.cbGoodsSupplier.TabIndex = 6;
+            this.cbGoodsSupplier.Click += new System.EventHandler(this.GoodsImport_Load);
             // 
             // GoodsImport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(839, 579);
-            this.Controls.Add(this.nhTxtGoodsSupplier);
+            this.ClientSize = new System.Drawing.Size(1119, 713);
+            this.Controls.Add(this.cbGoodsSupplier);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.importGoodsLbEmployeeCode);
             this.Controls.Add(this.goodsImportCbb);
@@ -355,6 +399,7 @@
             this.Controls.Add(this.lb2);
             this.Controls.Add(this.nhTxtGoodsCode);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GoodsImport";
             this.Text = "GoodsImport";
             this.Load += new System.EventHandler(this.GoodsImport_Load);
@@ -395,7 +440,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.TextBox nhTxtGoodsSupplier;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cbGoodsSupplier;
     }
 }

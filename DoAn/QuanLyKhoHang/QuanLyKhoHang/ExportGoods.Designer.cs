@@ -60,11 +60,12 @@
             // 
             // nhBtnBackward
             // 
-            this.nhBtnBackward.Location = new System.Drawing.Point(835, 538);
+            this.nhBtnBackward.Location = new System.Drawing.Point(1113, 662);
+            this.nhBtnBackward.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nhBtnBackward.Name = "nhBtnBackward";
-            this.nhBtnBackward.Size = new System.Drawing.Size(66, 22);
-            this.nhBtnBackward.TabIndex = 58;
-            this.nhBtnBackward.Text = "TRỞ LẠI";
+            this.nhBtnBackward.Size = new System.Drawing.Size(88, 27);
+            this.nhBtnBackward.TabIndex = 9;
+            this.nhBtnBackward.Text = "&TRỞ LẠI";
             this.nhBtnBackward.UseVisualStyleBackColor = true;
             this.nhBtnBackward.Click += new System.EventHandler(this.nhBtnBackward_Click);
             // 
@@ -81,9 +82,11 @@
             this.Column7,
             this.Column8,
             this.Column9});
-            this.xhDgvExportGoods.Location = new System.Drawing.Point(76, 216);
+            this.xhDgvExportGoods.Location = new System.Drawing.Point(101, 266);
+            this.xhDgvExportGoods.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhDgvExportGoods.Name = "xhDgvExportGoods";
-            this.xhDgvExportGoods.Size = new System.Drawing.Size(649, 301);
+            this.xhDgvExportGoods.RowHeadersWidth = 51;
+            this.xhDgvExportGoods.Size = new System.Drawing.Size(865, 370);
             this.xhDgvExportGoods.TabIndex = 57;
             this.xhDgvExportGoods.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.xhDgvExportGoods_CellClick);
             // 
@@ -91,202 +94,236 @@
             // 
             this.Column1.DataPropertyName = "goodsID";
             this.Column1.HeaderText = "Mã Hàng";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
             // 
             // Column2
             // 
             this.Column2.DataPropertyName = "goodsType";
             this.Column2.HeaderText = "Loại Hàng";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
             // 
             // Column3
             // 
             this.Column3.DataPropertyName = "goodsName";
             this.Column3.HeaderText = "Tên Hàng";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
             // 
             // Column4
             // 
             this.Column4.DataPropertyName = "goodsQuantity";
             this.Column4.HeaderText = "Số Lượng";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
             // 
             // Column5
             // 
             this.Column5.DataPropertyName = "goodsExportPrice";
             this.Column5.HeaderText = "Giá Bán";
+            this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
+            this.Column5.Width = 125;
             // 
             // Column6
             // 
             this.Column6.DataPropertyName = "goodsExportTotalPrice";
             this.Column6.HeaderText = "Thành Tiền";
+            this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
+            this.Column6.Width = 125;
             // 
             // Column7
             // 
             this.Column7.DataPropertyName = "employeeCode";
             this.Column7.HeaderText = "Column7";
+            this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
             this.Column7.Visible = false;
+            this.Column7.Width = 125;
             // 
             // Column8
             // 
             this.Column8.DataPropertyName = "exportTime";
             this.Column8.HeaderText = "Column8";
+            this.Column8.MinimumWidth = 6;
             this.Column8.Name = "Column8";
             this.Column8.Visible = false;
+            this.Column8.Width = 125;
             // 
             // Column9
             // 
             this.Column9.DataPropertyName = "exportInvoiceID";
             this.Column9.HeaderText = "Column9";
+            this.Column9.MinimumWidth = 6;
             this.Column9.Name = "Column9";
             this.Column9.Visible = false;
+            this.Column9.Width = 125;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(73, 77);
+            this.label7.Location = new System.Drawing.Point(97, 95);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 13);
+            this.label7.Size = new System.Drawing.Size(128, 16);
             this.label7.TabIndex = 52;
             this.label7.Text = "NGÀY NHẬP HÀNG";
             // 
             // xhBtnConfirm
             // 
-            this.xhBtnConfirm.Location = new System.Drawing.Point(408, 132);
+            this.xhBtnConfirm.Location = new System.Drawing.Point(544, 162);
+            this.xhBtnConfirm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhBtnConfirm.Name = "xhBtnConfirm";
-            this.xhBtnConfirm.Size = new System.Drawing.Size(104, 29);
-            this.xhBtnConfirm.TabIndex = 56;
-            this.xhBtnConfirm.Text = "XÁC NHẬN";
+            this.xhBtnConfirm.Size = new System.Drawing.Size(139, 36);
+            this.xhBtnConfirm.TabIndex = 8;
+            this.xhBtnConfirm.Text = "&XÁC NHẬN";
             this.xhBtnConfirm.UseVisualStyleBackColor = true;
             this.xhBtnConfirm.Click += new System.EventHandler(this.xhBtnConfirm_Click);
             // 
             // xhBtnDel
             // 
-            this.xhBtnDel.Location = new System.Drawing.Point(296, 132);
+            this.xhBtnDel.Location = new System.Drawing.Point(395, 162);
+            this.xhBtnDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhBtnDel.Name = "xhBtnDel";
-            this.xhBtnDel.Size = new System.Drawing.Size(104, 29);
-            this.xhBtnDel.TabIndex = 55;
-            this.xhBtnDel.Text = "XÓA";
+            this.xhBtnDel.Size = new System.Drawing.Size(139, 36);
+            this.xhBtnDel.TabIndex = 7;
+            this.xhBtnDel.Text = "&XÓA";
             this.xhBtnDel.UseVisualStyleBackColor = true;
             this.xhBtnDel.Click += new System.EventHandler(this.xhBtnDel_Click);
             // 
             // xhBtnFix
             // 
-            this.xhBtnFix.Location = new System.Drawing.Point(186, 132);
+            this.xhBtnFix.Location = new System.Drawing.Point(248, 162);
+            this.xhBtnFix.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhBtnFix.Name = "xhBtnFix";
-            this.xhBtnFix.Size = new System.Drawing.Size(104, 29);
-            this.xhBtnFix.TabIndex = 54;
-            this.xhBtnFix.Text = "SỬA";
+            this.xhBtnFix.Size = new System.Drawing.Size(139, 36);
+            this.xhBtnFix.TabIndex = 6;
+            this.xhBtnFix.Text = "&SỬA";
             this.xhBtnFix.UseVisualStyleBackColor = true;
             this.xhBtnFix.Click += new System.EventHandler(this.xhBtnFix_Click);
             // 
             // xhBtnAdd
             // 
-            this.xhBtnAdd.Location = new System.Drawing.Point(76, 132);
+            this.xhBtnAdd.Location = new System.Drawing.Point(101, 162);
+            this.xhBtnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhBtnAdd.Name = "xhBtnAdd";
-            this.xhBtnAdd.Size = new System.Drawing.Size(104, 29);
-            this.xhBtnAdd.TabIndex = 53;
-            this.xhBtnAdd.Text = "THÊM";
+            this.xhBtnAdd.Size = new System.Drawing.Size(139, 36);
+            this.xhBtnAdd.TabIndex = 5;
+            this.xhBtnAdd.Text = " &THÊM";
             this.xhBtnAdd.UseVisualStyleBackColor = true;
             this.xhBtnAdd.Click += new System.EventHandler(this.xhBtnAdd_Click);
             // 
             // xhDtImportTime
             // 
-            this.xhDtImportTime.Location = new System.Drawing.Point(76, 96);
+            this.xhDtImportTime.Location = new System.Drawing.Point(101, 118);
+            this.xhDtImportTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhDtImportTime.Name = "xhDtImportTime";
-            this.xhDtImportTime.Size = new System.Drawing.Size(188, 20);
-            this.xhDtImportTime.TabIndex = 51;
+            this.xhDtImportTime.Size = new System.Drawing.Size(249, 22);
+            this.xhDtImportTime.TabIndex = 2;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(73, 25);
+            this.label6.Location = new System.Drawing.Point(97, 31);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 13);
+            this.label6.Size = new System.Drawing.Size(103, 16);
             this.label6.TabIndex = 49;
             this.label6.Text = "MÃ NHÂN VIÊN";
             // 
             // lb1
             // 
             this.lb1.AutoSize = true;
-            this.lb1.Location = new System.Drawing.Point(534, 25);
+            this.lb1.Location = new System.Drawing.Point(712, 31);
+            this.lb1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(65, 13);
+            this.lb1.Size = new System.Drawing.Size(78, 16);
             this.lb1.TabIndex = 47;
             this.lb1.Text = "LOẠI HÀNG";
             // 
             // xhTxtGoodsQuantity
             // 
-            this.xhTxtGoodsQuantity.Location = new System.Drawing.Point(537, 96);
+            this.xhTxtGoodsQuantity.Location = new System.Drawing.Point(716, 118);
+            this.xhTxtGoodsQuantity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhTxtGoodsQuantity.Name = "xhTxtGoodsQuantity";
-            this.xhTxtGoodsQuantity.Size = new System.Drawing.Size(188, 20);
-            this.xhTxtGoodsQuantity.TabIndex = 46;
+            this.xhTxtGoodsQuantity.Size = new System.Drawing.Size(249, 22);
+            this.xhTxtGoodsQuantity.TabIndex = 4;
             // 
             // xhTxtGoodsType
             // 
-            this.xhTxtGoodsType.Location = new System.Drawing.Point(537, 41);
+            this.xhTxtGoodsType.Location = new System.Drawing.Point(716, 50);
+            this.xhTxtGoodsType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhTxtGoodsType.Name = "xhTxtGoodsType";
-            this.xhTxtGoodsType.Size = new System.Drawing.Size(188, 20);
-            this.xhTxtGoodsType.TabIndex = 44;
+            this.xhTxtGoodsType.Size = new System.Drawing.Size(249, 22);
+            this.xhTxtGoodsType.TabIndex = 1;
             // 
             // tb3
             // 
             this.tb3.AutoSize = true;
-            this.tb3.Location = new System.Drawing.Point(536, 77);
+            this.tb3.Location = new System.Drawing.Point(715, 95);
+            this.tb3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tb3.Name = "tb3";
-            this.tb3.Size = new System.Drawing.Size(63, 13);
+            this.tb3.Size = new System.Drawing.Size(76, 16);
             this.tb3.TabIndex = 43;
             this.tb3.Text = "SỐ LƯỢNG";
             // 
             // xhTxtGoodsName
             // 
-            this.xhTxtGoodsName.Location = new System.Drawing.Point(324, 99);
+            this.xhTxtGoodsName.Location = new System.Drawing.Point(432, 122);
+            this.xhTxtGoodsName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhTxtGoodsName.Name = "xhTxtGoodsName";
-            this.xhTxtGoodsName.Size = new System.Drawing.Size(188, 20);
-            this.xhTxtGoodsName.TabIndex = 42;
+            this.xhTxtGoodsName.Size = new System.Drawing.Size(249, 22);
+            this.xhTxtGoodsName.TabIndex = 3;
             // 
             // lb2
             // 
             this.lb2.AutoSize = true;
-            this.lb2.Location = new System.Drawing.Point(321, 77);
+            this.lb2.Location = new System.Drawing.Point(428, 95);
+            this.lb2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(63, 13);
+            this.lb2.Size = new System.Drawing.Size(77, 16);
             this.lb2.TabIndex = 41;
             this.lb2.Text = "TÊN HÀNG";
             // 
             // xhTxtGoodsCode
             // 
-            this.xhTxtGoodsCode.Location = new System.Drawing.Point(324, 41);
+            this.xhTxtGoodsCode.Location = new System.Drawing.Point(432, 50);
+            this.xhTxtGoodsCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xhTxtGoodsCode.Name = "xhTxtGoodsCode";
-            this.xhTxtGoodsCode.Size = new System.Drawing.Size(188, 20);
-            this.xhTxtGoodsCode.TabIndex = 40;
+            this.xhTxtGoodsCode.Size = new System.Drawing.Size(249, 22);
+            this.xhTxtGoodsCode.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(321, 25);
+            this.label1.Location = new System.Drawing.Point(428, 31);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 39;
             this.label1.Text = "MÃ HÀNG";
             // 
             // exportGoodsLbEmployeeCode
             // 
             this.exportGoodsLbEmployeeCode.AutoSize = true;
-            this.exportGoodsLbEmployeeCode.Location = new System.Drawing.Point(73, 41);
+            this.exportGoodsLbEmployeeCode.Location = new System.Drawing.Point(97, 50);
+            this.exportGoodsLbEmployeeCode.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.exportGoodsLbEmployeeCode.Name = "exportGoodsLbEmployeeCode";
-            this.exportGoodsLbEmployeeCode.Size = new System.Drawing.Size(13, 13);
+            this.exportGoodsLbEmployeeCode.Size = new System.Drawing.Size(14, 16);
             this.exportGoodsLbEmployeeCode.TabIndex = 59;
             this.exportGoodsLbEmployeeCode.Text = "1";
             // 
             // ExportGoods
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(913, 570);
+            this.ClientSize = new System.Drawing.Size(1217, 702);
             this.Controls.Add(this.exportGoodsLbEmployeeCode);
             this.Controls.Add(this.nhBtnBackward);
             this.Controls.Add(this.xhDgvExportGoods);
@@ -305,6 +342,7 @@
             this.Controls.Add(this.lb2);
             this.Controls.Add(this.xhTxtGoodsCode);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ExportGoods";
             this.Text = "ExportGoods";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ExportGoods_FormClosed);

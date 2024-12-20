@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.accountDgv = new System.Windows.Forms.DataGridView();
-            this.accountShowCbb = new System.Windows.Forms.ComboBox();
-            this.accountShowBtnSort = new System.Windows.Forms.Button();
-            this.accountShowBtnInf = new System.Windows.Forms.Button();
             this.colEmployeeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colUserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPassword = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colAccountType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.accountShowCbb = new System.Windows.Forms.ComboBox();
+            this.accountShowBtnSort = new System.Windows.Forms.Button();
+            this.accountShowBtnInf = new System.Windows.Forms.Button();
             this.accountShowExit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.accountDgv)).BeginInit();
             this.SuspendLayout();
@@ -48,83 +48,98 @@
             this.colUserName,
             this.colPassword,
             this.colAccountType});
-            this.accountDgv.Location = new System.Drawing.Point(38, 34);
+            this.accountDgv.Location = new System.Drawing.Point(51, 42);
+            this.accountDgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.accountDgv.Name = "accountDgv";
-            this.accountDgv.Size = new System.Drawing.Size(444, 241);
+            this.accountDgv.RowHeadersWidth = 51;
+            this.accountDgv.Size = new System.Drawing.Size(592, 297);
             this.accountDgv.TabIndex = 0;
             this.accountDgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.accountDgv_CellClick);
-            // 
-            // accountShowCbb
-            // 
-            this.accountShowCbb.FormattingEnabled = true;
-            this.accountShowCbb.Location = new System.Drawing.Point(519, 34);
-            this.accountShowCbb.Name = "accountShowCbb";
-            this.accountShowCbb.Size = new System.Drawing.Size(150, 21);
-            this.accountShowCbb.TabIndex = 1;
-            // 
-            // accountShowBtnSort
-            // 
-            this.accountShowBtnSort.Location = new System.Drawing.Point(519, 61);
-            this.accountShowBtnSort.Name = "accountShowBtnSort";
-            this.accountShowBtnSort.Size = new System.Drawing.Size(93, 23);
-            this.accountShowBtnSort.TabIndex = 2;
-            this.accountShowBtnSort.Text = "Lọc";
-            this.accountShowBtnSort.UseVisualStyleBackColor = true;
-            this.accountShowBtnSort.Click += new System.EventHandler(this.accountShowBtnSort_Click);
-            // 
-            // accountShowBtnInf
-            // 
-            this.accountShowBtnInf.Location = new System.Drawing.Point(38, 281);
-            this.accountShowBtnInf.Name = "accountShowBtnInf";
-            this.accountShowBtnInf.Size = new System.Drawing.Size(142, 23);
-            this.accountShowBtnInf.TabIndex = 3;
-            this.accountShowBtnInf.Text = "Thông Tin Tài Khoản";
-            this.accountShowBtnInf.UseVisualStyleBackColor = true;
-            this.accountShowBtnInf.Click += new System.EventHandler(this.accountShowBtnInf_Click);
             // 
             // colEmployeeID
             // 
             this.colEmployeeID.DataPropertyName = "accountEmployeeID";
             this.colEmployeeID.HeaderText = "Mã Nhân Viên";
+            this.colEmployeeID.MinimumWidth = 6;
             this.colEmployeeID.Name = "colEmployeeID";
+            this.colEmployeeID.Width = 125;
             // 
             // colUserName
             // 
             this.colUserName.DataPropertyName = "accountUserName";
             this.colUserName.HeaderText = "Tên Tài Khoản";
+            this.colUserName.MinimumWidth = 6;
             this.colUserName.Name = "colUserName";
+            this.colUserName.Width = 125;
             // 
             // colPassword
             // 
             this.colPassword.DataPropertyName = "accountPassword";
             this.colPassword.HeaderText = "Mật Khẩu";
+            this.colPassword.MinimumWidth = 6;
             this.colPassword.Name = "colPassword";
+            this.colPassword.Width = 125;
             // 
             // colAccountType
             // 
             this.colAccountType.DataPropertyName = "typeOfAccount";
             this.colAccountType.HeaderText = "Loại Tài Khoản";
+            this.colAccountType.MinimumWidth = 6;
             this.colAccountType.Name = "colAccountType";
+            this.colAccountType.Width = 125;
+            // 
+            // accountShowCbb
+            // 
+            this.accountShowCbb.FormattingEnabled = true;
+            this.accountShowCbb.Location = new System.Drawing.Point(692, 42);
+            this.accountShowCbb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.accountShowCbb.Name = "accountShowCbb";
+            this.accountShowCbb.Size = new System.Drawing.Size(199, 24);
+            this.accountShowCbb.TabIndex = 1;
+            // 
+            // accountShowBtnSort
+            // 
+            this.accountShowBtnSort.Location = new System.Drawing.Point(692, 75);
+            this.accountShowBtnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.accountShowBtnSort.Name = "accountShowBtnSort";
+            this.accountShowBtnSort.Size = new System.Drawing.Size(124, 28);
+            this.accountShowBtnSort.TabIndex = 2;
+            this.accountShowBtnSort.Text = "&Lọc";
+            this.accountShowBtnSort.UseVisualStyleBackColor = true;
+            this.accountShowBtnSort.Click += new System.EventHandler(this.accountShowBtnSort_Click);
+            // 
+            // accountShowBtnInf
+            // 
+            this.accountShowBtnInf.Location = new System.Drawing.Point(51, 346);
+            this.accountShowBtnInf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.accountShowBtnInf.Name = "accountShowBtnInf";
+            this.accountShowBtnInf.Size = new System.Drawing.Size(189, 28);
+            this.accountShowBtnInf.TabIndex = 0;
+            this.accountShowBtnInf.Text = "&Thông Tin Tài Khoản";
+            this.accountShowBtnInf.UseVisualStyleBackColor = true;
+            this.accountShowBtnInf.Click += new System.EventHandler(this.accountShowBtnInf_Click);
             // 
             // accountShowExit
             // 
-            this.accountShowExit.Location = new System.Drawing.Point(611, 290);
+            this.accountShowExit.Location = new System.Drawing.Point(815, 357);
+            this.accountShowExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.accountShowExit.Name = "accountShowExit";
-            this.accountShowExit.Size = new System.Drawing.Size(75, 23);
-            this.accountShowExit.TabIndex = 4;
-            this.accountShowExit.Text = "Thoát";
+            this.accountShowExit.Size = new System.Drawing.Size(100, 28);
+            this.accountShowExit.TabIndex = 3;
+            this.accountShowExit.Text = "&Thoát";
             this.accountShowExit.UseVisualStyleBackColor = true;
             // 
             // AccountShowForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(698, 325);
+            this.ClientSize = new System.Drawing.Size(931, 400);
             this.Controls.Add(this.accountShowExit);
             this.Controls.Add(this.accountShowBtnInf);
             this.Controls.Add(this.accountShowBtnSort);
             this.Controls.Add(this.accountShowCbb);
             this.Controls.Add(this.accountDgv);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AccountShowForm";
             this.Text = "AccountShowForm";
             this.Load += new System.EventHandler(this.AccountShowForm_Load);

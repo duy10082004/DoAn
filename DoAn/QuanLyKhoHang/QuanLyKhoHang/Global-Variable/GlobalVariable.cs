@@ -24,9 +24,10 @@ namespace QuanLyKhoHang.Global_Variable
         public static List<String> khComboboxValue = new List<String>() { "Refresh", "A->Z", "Số Lượng Tồn Kho", "Chưa Cập Nhật Giá Bán" };
         public static List<String> employeeCbbValue = new List<String>() { "Quản Lý", "Nhân Viên" };
         public static List<String> employeeSortCbbValue = new List<String>() { "Quản Lý", "Nhân Viên", "Tên A->Z", "Refresh" };
-        static List<String> goodsTypeCbbValue = new List<String>() { "Máy Tính", "Ti Vi", "Tủ Lạnh", "Điều Hòa", "Điện Thoại" };
+        public static List<String> goodsTypeCbbValue = new List<String>() { "Máy Tính", "Ti Vi", "Tủ Lạnh", "Điều Hòa", "Điện Thoại" };
         public static List<String> accountShowCbbValue = new List<String> { "Quyền Quản Lý", "Quyền Nhân Viên", "Refresh" };
-
+        public static List<String> nhGoodsSupplier = new List<string> { "Nhà cung cấp A", "Nhà cung cấp B", "Nhà cung cấp C" };
+       
         //Sort Hóa Đơnpublic
         public static InvoiceManager fakeInvoice = new InvoiceManager("", DateTime.Now, "");
         public static List<HangNhap> fakeListImportGoods = new List<HangNhap>();
